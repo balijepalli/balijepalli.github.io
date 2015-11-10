@@ -8,3 +8,28 @@ node_js:
   - "iojs"
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+  app:
+    master: balijepalli.github.io
+    production: balijepalli.github.io
+after_script:
+  # Install the Heroku gem (or the Heroku toolbelt)
+  - gem install heroku
+  # Add your Heroku git repo:
+  - git remote add heroku git@heroku.com:balijepalli.git
+  # Add your Heroku API key:
+  - export HEROKU_API_KEY=3a264a76-62eb-4fcb-9ca2-8770f326e240
+  # Turn off warnings about SSH keys:
+  - echo "Host heroku.com" >> ~/.ssh/config
+  - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
+  - echo "   CheckHostIP no" >> ~/.ssh/config
+  - echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
+  # Clear your current Heroku SSH keys:
+  - heroku keys:clear
+  # Add a new SSH key to Heroku
+  - yes | heroku keys:add
+  # Push to Heroku!
+  - yes | git push heroku master
