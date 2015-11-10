@@ -10,8 +10,9 @@ node_js:
 # script: bundle exec rspec spec
 deploy:
   provider: heroku
-  api_key:
-    secure:
+env:
+  global:
+    secure:3a264a76-62eb-4fcb-9ca2-8770f326e240
   app:
     master: balijepalli.github.io
     production: balijepalli.github.io
