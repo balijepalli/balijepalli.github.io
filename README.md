@@ -1,4 +1,4 @@
 balijepalli.github.io
 =====================
 
-balijepalli personal contributions
+balijepalli personal contributions to balijepalli.com
