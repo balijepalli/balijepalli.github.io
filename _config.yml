@@ -72,6 +72,40 @@ disqus_shortname: balijepalli
 # avatar
 avatar: /images/me.jpg
 
+ author_links:
+        # github:
+        #     title: global.github
+        #     url: https://github.com/
+        #     icon: github
+        # stack_overflow:
+        #     title: global.stack_overflow
+        #     url: http://stackoverflow.com/users
+        #     icon: stack-overflow
+        # twitter:
+        #     title: global.twitter
+        #     url: https://twitter.com/
+        #     icon: twitter
+        # facebook:
+        #     title: global.facebook
+        #     url: https://facebook.com/
+        #     icon: facebook
+        # google_plus:
+        #     title: global.google_plus
+        #     url: https://plus.google.com/
+        #     icon: google-plus
+        # linked_in:
+        #     title: global.linkedin
+        #     url: https://www.linkedin.com/profile/
+        #     icon: linkedin
+        # mail:
+        #     title: global.mail
+        #     url: mailto:
+        #     icon: envelope-o
+    rss:
+        rss:
+            title: global.rss
+            url: /atom.xml
+            icon: rss
 # social links
 social:
   GitHub: https://github.com/balijepalli
@@ -82,6 +116,6 @@ google_analytics:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:balijepalli/balijepalli.github.io.git
+  repo: https://github.com/balijepalli/balijepalli.github.io
   branch: master
   message: "normal deployment"
