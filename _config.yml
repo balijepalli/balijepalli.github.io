@@ -82,6 +82,6 @@ google_analytics:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/balijepalli/balijepalli.github.io
+  repo: git@github.com:balijepalli/balijepalli.github.io.git
   branch: master
   message: "normal deployment"
