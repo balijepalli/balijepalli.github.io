@@ -1,11 +1,16 @@
 <!doctype html>
-<html class="theme-next use-motion ">
-<head>
+
+
+
   
 
-<meta charset="UTF-8"/>
+
+<html class="theme-next muse use-motion">
+<head>
+  <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -16,27 +21,69 @@
 
 
 
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
-
-
-
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
-
-
-    <meta name="description" content="A tech geek's blog." />
-
-
-
-  <meta name="keywords" content="Technology,Thoughts,Innovation" />
 
 
 
 
 
-  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Curiosity Of Agile Architect" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
 
 
 <meta name="description" content="A tech geek&apos;s blog.">
@@ -50,47 +97,65 @@
 <meta name="twitter:description" content="A tech geek&apos;s blog.">
 
 
+
 <script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: '',
-    sidebar: 'post'
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: 'Author'
+    }
   };
 </script>
+
+
+
+
+  <link rel="canonical" href="http://balijepalli.com/"/>
 
   <title> Curiosity Of Agile Architect </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
   
 
 
 
-  <div class="container one-column 
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
    page-home 
-">
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand" rel="start">
-      <span class="logo">
-        <i class="icon-next-logo"></i>
-      </span>
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
       <span class="site-title">Curiosity Of Agile Architect</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">IT DOESN’T MATTER IF YOU ARE A LION OR A GAZELLE. WHEN THE SUN COMES UP, YOU BETTER BE RUNNING. !!</p>
+</div>
 
 <div class="site-nav-toggle">
   <button>
@@ -104,34 +169,39 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
-            <i class="menu-item-icon icon-next-home"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
             Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            <i class="menu-item-icon icon-next-about"></i> <br />
-            About
           </a>
         </li>
       
         
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
-            <i class="menu-item-icon icon-next-archives"></i> <br />
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
             Archives
           </a>
         </li>
       
-
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
       
+
       
     </ul>
   
@@ -144,69 +214,103 @@
 
     <main id="main" class="main">
       <div class="main-inner">
-        <div id="content" class="content"> 
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
   <section id="posts" class="posts-expand">
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2016/04/18/hello-world/" itemprop="url">
-                Hello World
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2016-04-18T11:40:37+05:30" content="2016-04-18">
-            2016-04-18
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-
         
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2016/04/18/hello-world/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/18/hello-world/" itemprop="commentsCount"></span>
-            </a>
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/04/18/hello-world/" itemprop="url">
+                  Hello World
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-04-18T11:40:37+05:30" content="2016-04-18">
+              2016-04-18
+            </time>
           </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/18/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/18/hello-world/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
           
         
-      </div>
-    </header>
-
-    <div class="post-body">
-
       
-      
+    </div>
 
+    <div>
       
-        
-          <span itemprop="articleBody"><p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-</span>
-        
+    </div>
+
+    <div>
       
     </div>
 
@@ -226,69 +330,96 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/11/02/fail-fast-and-safe/" itemprop="url">
-                Fail-Fast and Safe
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-11-02T08:53:15+05:30" content="2012-11-02">
-            2012-11-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Core-Java/" itemprop="url" rel="index">
-                  <span itemprop="name">Core Java</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/11/02/fail-fast-and-safe/" itemprop="url">
+                  Fail-Fast and Safe
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-11-02T08:53:15+05:30" content="2012-11-02">
+              2012-11-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Core-Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Core Java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/11/02/fail-fast-and-safe/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/fail-fast-and-safe/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/11/02/fail-fast-and-safe/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/fail-fast-and-safe/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p>Fail-Fast <a href="http://en.wikipedia.org/wiki/Iterator" title="Iterator" target="_blank" rel="external">Iterators</a> fail as soon as they realized a thread is iterating over it,Structure of <a href="http://en.wikipedia.org/wiki/Container_%28data_structure%29" title="Container (data structure)" target="_blank" rel="external">Collection</a> has been changed since iteration has begun</p>
+            <p>Fail-Fast <a href="http://en.wikipedia.org/wiki/Iterator" title="Iterator" target="_blank" rel="external">Iterators</a> fail as soon as they realized a thread is iterating over it,Structure of <a href="http://en.wikipedia.org/wiki/Container_%28data_structure%29" title="Container (data structure)" target="_blank" rel="external">Collection</a> has been changed since iteration has begun</p>
 <p>Structural changes like Create,Update,Delete</p>
 <blockquote>
 <p><span>Fail-Fast collections throw throws <span>ConcurrentModificationException</span></span><br>Whereas</p>
@@ -299,8 +430,17 @@
 <li><span><span>CopyOnWriteArrayList</span></span></li>
 <li>ConcurrentHashMap</li>
 </ul>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -320,77 +460,113 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/11/02/difference-between-set-and-list/" itemprop="url">
-                Difference Between Set and List
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-11-02T07:27:54+05:30" content="2012-11-02">
-            2012-11-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Core-Java/" itemprop="url" rel="index">
-                  <span itemprop="name">Core Java</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/11/02/difference-between-set-and-list/" itemprop="url">
+                  Difference Between Set and List
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-11-02T07:27:54+05:30" content="2012-11-02">
+              2012-11-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Core-Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Core Java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/11/02/difference-between-set-and-list/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/difference-between-set-and-list/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/11/02/difference-between-set-and-list/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/difference-between-set-and-list/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><ul>
+            <ul>
 <li>Collection Interface List allows duplicate values, Set does not allow duplicate values</li>
 <li>List is ordered collection, Set is an unordered collection</li>
 <li>List maintains insertion order(First-in is Lower Index), Set does not mantain any order</li>
 <li>Various List Implementations(ArrayList,Vector,LinkedList)</li>
 <li>Various Set Implementations(HashSet,TreeSet,LinkedHashSet)</li>
 </ul>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -410,69 +586,96 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/11/02/difference-between-arraylist-and-linkedlist/" itemprop="url">
-                Difference Between ArrayList and LinkedList
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-11-02T07:11:26+05:30" content="2012-11-02">
-            2012-11-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Core-Java/" itemprop="url" rel="index">
-                  <span itemprop="name">Core Java</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/11/02/difference-between-arraylist-and-linkedlist/" itemprop="url">
+                  Difference Between ArrayList and LinkedList
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-11-02T07:11:26+05:30" content="2012-11-02">
+              2012-11-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Core-Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Core Java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/11/02/difference-between-arraylist-and-linkedlist/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/difference-between-arraylist-and-linkedlist/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/11/02/difference-between-arraylist-and-linkedlist/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/difference-between-arraylist-and-linkedlist/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><ul>
+            <ul>
 <li>ArrayList is implemented using re sizable array whereas,LinkedList is implemented using doubly LinkedList.</li>
 <li>ArrayList insert needs re-size unlike LinkedList, It also warrants for index update if its not at the end of list.</li>
 <li>Search Mechanism is Index based search in case of ArrayList which is not for LinkedList.</li>
@@ -481,8 +684,17 @@
 <li>ArrayList each index holds actual data  compared to LinkedList,which holds address of itself,next and previous node,so lesser memory overhead.</li>
 <li>ArrayList is recommended for <a href="http://en.wikipedia.org/wiki/Random_access" title="Random access" target="_blank" rel="external">random access</a> of data compared to LinkedList, where, we need to traverse entire list.</li>
 </ul>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -502,69 +714,96 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/11/02/difference-between-hashtable-and-concurrenthashmap/" itemprop="url">
-                Difference Between Hashtable and ConcurrentHashmap
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-11-02T06:44:59+05:30" content="2012-11-02">
-            2012-11-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Core-Java/" itemprop="url" rel="index">
-                  <span itemprop="name">Core Java</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/11/02/difference-between-hashtable-and-concurrenthashmap/" itemprop="url">
+                  Difference Between Hashtable and ConcurrentHashmap
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-11-02T06:44:59+05:30" content="2012-11-02">
+              2012-11-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Core-Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Core Java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/11/02/difference-between-hashtable-and-concurrenthashmap/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/difference-between-hashtable-and-concurrenthashmap/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/11/02/difference-between-hashtable-and-concurrenthashmap/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/difference-between-hashtable-and-concurrenthashmap/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p>Prior one is part of Synchronised Collection classes <span><a href="http://en.wikipedia.org/wiki/Hash_table" title="Hash table" target="_blank" rel="external">Hashtable</a></span> and Vector are also Synchronised Wrapper classes</p>
+            <p>Prior one is part of Synchronised Collection classes <span><a href="http://en.wikipedia.org/wiki/Hash_table" title="Hash table" target="_blank" rel="external">Hashtable</a></span> and Vector are also Synchronised Wrapper classes</p>
 <ul>
 <li>Allows NULL values</li>
 <li><span>Where,Collections.synchronizedMap and Collections.synchronizedList, provide a basic conditionally <a href="http://en.wikipedia.org/wiki/Thread_safety" title="Thread safety" target="_blank" rel="external">thread-safe</a> implementation of Map and List</span></li>
@@ -577,8 +816,17 @@
 <li>Used for high volume low latency apps</li>
 <li>Readers can access map without waiting for iterations to complete</li>
 </ul>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -598,69 +846,96 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/11/02/hashtable-and-hashmap/" itemprop="url">
-                Hashtable and Hashmap
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-11-02T06:22:46+05:30" content="2012-11-02">
-            2012-11-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Core-Java/" itemprop="url" rel="index">
-                  <span itemprop="name">Core Java</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/11/02/hashtable-and-hashmap/" itemprop="url">
+                  Hashtable and Hashmap
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-11-02T06:22:46+05:30" content="2012-11-02">
+              2012-11-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Core-Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Core Java</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/11/02/hashtable-and-hashmap/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/hashtable-and-hashmap/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/11/02/hashtable-and-hashmap/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/11/02/hashtable-and-hashmap/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><strong>Similarities</strong> between Hashtable and Hasbmap</p>
+            <p><strong>Similarities</strong> between Hashtable and Hasbmap</p>
 <ul>
 <li>Both extend Map Interface</li>
 <li>Both work on hashing principle</li>
@@ -673,8 +948,17 @@
 <li>Hashtable - Synchronised and not better performance as Hashmap</li>
 <li>Hashtable - Obselete(No Longer Available) class - Replace it by ConcurrentHashMap</li>
 </ul>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -694,73 +978,109 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/03/02/hive-series-part-i-architecture-simplified/" itemprop="url">
-                Hive Series Part I  : Architecture Simplified.
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-03-02T06:25:09+05:30" content="2012-03-02">
-            2012-03-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Cloud-Computing/" itemprop="url" rel="index">
-                  <span itemprop="name">Cloud Computing</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/03/02/hive-series-part-i-architecture-simplified/" itemprop="url">
+                  Hive Series Part I  : Architecture Simplified.
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-03-02T06:25:09+05:30" content="2012-03-02">
+              2012-03-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Cloud-Computing/" itemprop="url" rel="index">
+                    <span itemprop="name">Cloud Computing</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/03/02/hive-series-part-i-architecture-simplified/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/03/02/hive-series-part-i-architecture-simplified/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/03/02/hive-series-part-i-architecture-simplified/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/03/02/hive-series-part-i-architecture-simplified/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><a href="http://preetambalijepalli.files.wordpress.com/2012/03/image001.png" target="_blank" rel="external"><img src="http://preetambalijepalli.files.wordpress.com/2012/03/image001.png" alt="" title="image001"></a></p>
+            <p><a href="http://preetambalijepalli.files.wordpress.com/2012/03/image001.png" target="_blank" rel="external"><img src="http://preetambalijepalli.files.wordpress.com/2012/03/image001.png" alt="" title="image001"></a></p>
 <p>Hence, this is how different components of Hive are stacked</p>
 <p><a href="http://preetambalijepalli.files.wordpress.com/2012/03/image002.png" target="_blank" rel="external"><img src="http://preetambalijepalli.files.wordpress.com/2012/03/image002.png" alt="" title="image002"></a></p>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -780,72 +1100,108 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2012/02/10/hadoop-eco-system-hyperlinks/" itemprop="url">
-                Hadoop Eco System Hyperlinks
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2012-02-10T08:37:19+05:30" content="2012-02-10">
-            2012-02-10
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Cloud-Computing/" itemprop="url" rel="index">
-                  <span itemprop="name">Cloud Computing</span>
+            
+              
+                
+                <a class="post-title-link" href="/2012/02/10/hadoop-eco-system-hyperlinks/" itemprop="url">
+                  Hadoop Eco System Hyperlinks
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2012-02-10T08:37:19+05:30" content="2012-02-10">
+              2012-02-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Cloud-Computing/" itemprop="url" rel="index">
+                    <span itemprop="name">Cloud Computing</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2012/02/10/hadoop-eco-system-hyperlinks/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/02/10/hadoop-eco-system-hyperlinks/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2012/02/10/hadoop-eco-system-hyperlinks/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/02/10/hadoop-eco-system-hyperlinks/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><!--[if gte mso 9]&gt;-->
+            <!--[if gte mso 9]&gt;-->
 <!--[if gte mso 9]&gt;-->
-<div class="WordSection1"><table class="MsoTableLightShadingAccent3" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;"><tr style="height:25pt;"><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Logo: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Name: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Project Type: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Description: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">More Info: </span></strong><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache HDFS</span></strong><span style="color:#1F497D;"></span><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Distributed File System </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/hdfs/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/hdfs/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache MapReduce </span></strong><span style="color:#1F497D;"></span><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Framework </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Framework for parallel processing </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://hadoop.apache.org/mapreduce" target="_blank" rel="external"><span style="font-size:11pt;line-height:115%;color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/mapreduce</span></a></span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hbase </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Column oriented database, real-time querying </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hbase.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hbase.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hive </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">High-latency data warehousing analytics </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hive.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hive.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Pig </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">High level Hadoop programming language </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://pig.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://pig.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Mahout </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Machine learning for clustering, classification, recommendation, and itemset mining </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://mahout.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://mahout.apache.org/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Zookeeper </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Management </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration information, naming, providing distributed synchronization, and providing group services. </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/zookeeper/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/zookeeper/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Ganglia </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitoring </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Scalable distributed monitoring system for high-performance computing systems </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://ganglia.sourceforge.net/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://ganglia.sourceforge.net/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Nagios </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitoring </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitors applications, services, and business processes </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.nagios.org/about/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.nagios.org/about/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hadoop Streaming </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Create and run MapReduce jobs with any executable or script as the mapper and/or the reducer. </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/common/docs/r0.15.2/streaming.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/common/docs/r0.15.2/streaming.html</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Cascading </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Java Query API, Query Planner, and Process Scheduler for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cascading.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cascading.org/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HadoopDB </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Development Environment </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Hybrid DBMS and MapReduce technology </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoopdb.sourceforge.net/guide/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoopdb.sourceforge.net/guide/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Karmasphere </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">User interface </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Development environment </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.karmasphere.com/Products-Information/karmasphere-studio.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.karmasphere.com/Products-Information/karmasphere-studio.html</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HUE </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Deployment </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Web UI for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-hue/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-hue/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Puppet </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Deployment and configuration management </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://docs.puppetlabs.com/guides/introduction.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://docs.puppetlabs.com/guides/introduction.html</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Chef </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Management </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration management </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://wiki.opscode.com/display/chef/Home" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://wiki.opscode.com/display/chef/Home</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Flume </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Data import </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Load data into HDFS from a variety of sources </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-flume/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-flume/</span></a> </span><br></td></tr><tr style="height:26.95pt;"><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:26.95pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HOP </span></strong><br></td><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Realtime processing </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:26.95pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Online aggregation (approximate answers as a job runs), and stream processing (MapReduce jobs that run continuously, processing new data as it arrives) </span></strong><br></td><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://code.google.com/p/hop/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://code.google.com/p/hop/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">sqoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Database integration </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">A database import/export tool for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=https://github.com/cloudera/sqoop" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">https://github.com/cloudera/sqoop</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Ora-Oop </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Database integration </span><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Connector between Oracle and Apache Hadoop </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.quest.com/Ora-Oop/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.quest.com/Ora-Oop/</span></a> </span><br></td></tr></table><br><br><span style="color:#1F497D;">&nbsp;</span><br></div><br><div class="fb-comments"></div></span>
+<div class="WordSection1"><table class="MsoTableLightShadingAccent3" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;"><tr style="height:25pt;"><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Logo: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Name: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Project Type: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Description: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">More Info: </span></strong><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache HDFS</span></strong><span style="color:#1F497D;"></span><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Distributed File System </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/hdfs/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/hdfs/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache MapReduce </span></strong><span style="color:#1F497D;"></span><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Framework </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Framework for parallel processing </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://hadoop.apache.org/mapreduce" target="_blank" rel="external"><span style="font-size:11pt;line-height:115%;color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/mapreduce</span></a></span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hbase </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Column oriented database, real-time querying </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hbase.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hbase.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hive </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">High-latency data warehousing analytics </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hive.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hive.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Pig </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">High level Hadoop programming language </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://pig.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://pig.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Mahout </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Machine learning for clustering, classification, recommendation, and itemset mining </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://mahout.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://mahout.apache.org/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Zookeeper </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Management </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration information, naming, providing distributed synchronization, and providing group services. </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/zookeeper/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/zookeeper/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Ganglia </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitoring </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Scalable distributed monitoring system for high-performance computing systems </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://ganglia.sourceforge.net/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://ganglia.sourceforge.net/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Nagios </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitoring </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitors applications, services, and business processes </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.nagios.org/about/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.nagios.org/about/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hadoop Streaming </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Create and run MapReduce jobs with any executable or script as the mapper and/or the reducer. </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/common/docs/r0.15.2/streaming.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/common/docs/r0.15.2/streaming.html</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Cascading </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Java Query API, Query Planner, and Process Scheduler for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cascading.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cascading.org/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HadoopDB </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Development Environment </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Hybrid DBMS and MapReduce technology </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoopdb.sourceforge.net/guide/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoopdb.sourceforge.net/guide/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Karmasphere </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">User interface </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Development environment </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.karmasphere.com/Products-Information/karmasphere-studio.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.karmasphere.com/Products-Information/karmasphere-studio.html</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HUE </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Deployment </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Web UI for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-hue/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-hue/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Puppet </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Deployment and configuration management </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://docs.puppetlabs.com/guides/introduction.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://docs.puppetlabs.com/guides/introduction.html</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Chef </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Management </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration management </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://wiki.opscode.com/display/chef/Home" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://wiki.opscode.com/display/chef/Home</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Flume </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Data import </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Load data into HDFS from a variety of sources </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-flume/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-flume/</span></a> </span><br></td></tr><tr style="height:26.95pt;"><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:26.95pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HOP </span></strong><br></td><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Realtime processing </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:26.95pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Online aggregation (approximate answers as a job runs), and stream processing (MapReduce jobs that run continuously, processing new data as it arrives) </span></strong><br></td><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://code.google.com/p/hop/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://code.google.com/p/hop/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">sqoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Database integration </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">A database import/export tool for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=https://github.com/cloudera/sqoop" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">https://github.com/cloudera/sqoop</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Ora-Oop </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Database integration </span><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Connector between Oracle and Apache Hadoop </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.quest.com/Ora-Oop/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.quest.com/Ora-Oop/</span></a> </span><br></td></tr></table><br><br><span style="color:#1F497D;">&nbsp;</span><br></div><br><div class="fb-comments"></div>
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -865,71 +1221,107 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/" itemprop="url">
-                Nine Things Successful People Do Differently - Heidi Grant Halvorson - the Conversation - Harvard Business Review
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2011-06-07T10:35:36+05:30" content="2011-06-07">
-            2011-06-07
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Leadership/" itemprop="url" rel="index">
-                  <span itemprop="name">Leadership</span>
+            
+              
+                
+                <a class="post-title-link" href="/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/" itemprop="url">
+                  Nine Things Successful People Do Differently - Heidi Grant Halvorson - the Conversation - Harvard Business Review
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2011-06-07T10:35:36+05:30" content="2011-06-07">
+              2011-06-07
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Leadership/" itemprop="url" rel="index">
+                    <span itemprop="name">Leadership</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/" itemprop="commentsCount"></span>
-            </a>
-          </span>
+            <p><a href="http://blogs.hbr.org/cs/2011/02/nine_things_successful_people.html?cm_sp=most_widget-_-default-_-Nine+Things+Successful+People+Do+Differently" target="_blank" rel="external">Nine Things Successful People Do Differently - Heidi Grant Halvorson - The Conversation - Harvard Business Review</a>.</p>
+
           
         
-      </div>
-    </header>
-
-    <div class="post-body">
-
       
-      
+    </div>
 
+    <div>
       
-        
-          <span itemprop="articleBody"><p><a href="http://blogs.hbr.org/cs/2011/02/nine_things_successful_people.html?cm_sp=most_widget-_-default-_-Nine+Things+Successful+People+Do+Differently" target="_blank" rel="external">Nine Things Successful People Do Differently - Heidi Grant Halvorson - The Conversation - Harvard Business Review</a>.</p>
-</span>
-        
+    </div>
+
+    <div>
       
     </div>
 
@@ -949,69 +1341,96 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2010/06/21/naming-conflicts-inside-interface/" itemprop="url">
-                Naming Conflicts Inside Interface
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          Posted on
-          <time itemprop="dateCreated" datetime="2010-06-21T11:16:21+05:30" content="2010-06-21">
-            2010-06-21
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; In
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Patterns-and-Refactoring/" itemprop="url" rel="index">
-                  <span itemprop="name">Patterns and Refactoring</span>
+            
+              
+                
+                <a class="post-title-link" href="/2010/06/21/naming-conflicts-inside-interface/" itemprop="url">
+                  Naming Conflicts Inside Interface
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2010-06-21T11:16:21+05:30" content="2010-06-21">
+              2010-06-21
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Patterns-and-Refactoring/" itemprop="url" rel="index">
+                    <span itemprop="name">Patterns and Refactoring</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2010/06/21/naming-conflicts-inside-interface/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2010/06/21/naming-conflicts-inside-interface/" itemprop="commentsCount"></span>
                 </a>
               </span>
-
-              
-              
-
             
-          </span>
-        
+          
 
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2010/06/21/naming-conflicts-inside-interface/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2010/06/21/naming-conflicts-inside-interface/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p><strong>Case#1:</strong><em><strong>If two interfaces have the two are more same methods, **</strong>and then<strong>** only one method implementation is enough from both interfaces.</strong></em></p>
+            <p><strong>Case#1:</strong><em><strong>If two interfaces have the two are more same methods, **</strong>and then<strong>** only one method implementation is enough from both interfaces.</strong></em></p>
 <p>`interface Left { public void m1(); }</p>
 <p>interface Right{public void m1();}</p>
 <p>class Central implement Left, Right<br>{<br>public static void main(String arg[])</p>
@@ -1048,8 +1467,17 @@
 <ul>
 <li>One of my friend wanted the answers so posted this content</li>
 </ul>
-</span>
+
+          
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -1071,17 +1499,20 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
- </div>
 
+
+          </div>
+          
+
+
+          
+
+        </div>
         
-
-        
-      </div>
-
-      
+          
   
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
@@ -1096,12 +1527,16 @@
 
       
 
-      <section class="site-overview">
+      
+
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/images/me.jpg" alt="Preetam Balijepalli" itemprop="image"/>
+          <img class="site-author-image" itemprop="image"
+               src="/images/me.jpg"
+               alt="Preetam Balijepalli" />
           <p class="site-author-name" itemprop="name">Preetam Balijepalli</p>
+          <p class="site-description motion-element" itemprop="description">A tech geek's blog.</p>
         </div>
-        <p class="site-description motion-element" itemprop="description">A tech geek's blog.</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
@@ -1110,41 +1545,72 @@
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">6</span>
-              <span class="site-state-item-name">categories</span>
+          
+            <div class="site-state-item site-state-categories">
               
-          </div>
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            
-              <span class="site-state-item-count">16</span>
-              <span class="site-state-item-name">tags</span>
-              
-          </div>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
 
         </nav>
 
         
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
 
         <div class="links-of-author motion-element">
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/balijepalli" target="_blank">Github</a>
+                <a href="https://github.com/balijepalli" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Github
+                </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://twitter.com/balijepalli" target="_blank">Twitter</a>
+                <a href="https://twitter.com/balijepalli" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://facebook.com/preetam.balijepalli" target="_blank">Facebook</a>
+                <a href="https://facebook.com/preetam.balijepalli" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  Facebook
+                </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://www.linkedin.com/profile/in/preetambalijepalli" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/profile/in/preetambalijepalli" target="_blank" title="LinkedIn">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  LinkedIn
+                </a>
               </span>
             
           
@@ -1153,9 +1619,8 @@
         
         
 
-        <div class="links-of-author motion-element">
-          
-        </div>
+        
+        
 
       </section>
 
@@ -1165,51 +1630,114 @@
   </aside>
 
 
+        
+      </div>
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-inner"> <div class="copyright" >
+      <div class="footer-inner">
+        <div class="copyright" >
   
-  &copy; &nbsp;  2010 - 
+  &copy;  2010 - 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Preetam Balijepalli</span>
 </div>
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
   Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
+    NexT.Muse
   </a>
 </div>
 
+        
 
- </div>
+        
+      </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
   <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
   
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
   
   
-    
-    
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
 
   
 
     <script type="text/javascript">
       var disqus_shortname = 'balijepalli';
       var disqus_identifier = 'index.html';
-      var disqus_title = '';
+      var disqus_title = "";
       var disqus_url = '';
 
       function run_disqus_script(disqus_script){
@@ -1226,53 +1754,16 @@
   
 
 
-  
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
 
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
-  
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
-
-
-
-
-  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-
-  <script type="text/javascript">
-    $(document).ready(function () {
-      if (CONFIG.sidebar === 'always') {
-        displaySidebar();
-      }
-      if (isMobile()) {
-        FastClick.attach(document.body);
-      }
-    });
-  </script>
-
-  
 
   
   
 
   
-  <script type="text/javascript" src="/js/lazyload.js"></script>
-  <script type="text/javascript">
-    $(function () {
-      $("#posts").find('img').lazyload({
-        placeholder: "/images/loading.gif",
-        effect: "fadeIn"
-      });
-    });
-  </script>
+
+  
+
+  
+
 </body>
 </html>

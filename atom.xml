@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Curiosity Of Agile Architect</title>
+  <subtitle>IT DOESN’T MATTER IF YOU ARE A LION OR A GAZELLE. WHEN THE SUN COMES UP, YOU BETTER BE RUNNING. !!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://balijepalli.com/"/>
+  <updated>2016-04-18T06:10:37.440Z</updated>
+  <id>http://balijepalli.com/</id>
+  
+  <author>
+    <name>Preetam Balijepalli</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://balijepalli.com/2016/04/18/hello-world/"/>
+    <id>http://balijepalli.com/2016/04/18/hello-world/</id>
+    <published>2016-04-18T06:10:37.440Z</published>
+    <updated>2016-04-18T06:10:37.440Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Fail-Fast and Safe</title>
+    <link href="http://balijepalli.com/2012/11/02/fail-fast-and-safe/"/>
+    <id>http://balijepalli.com/2012/11/02/fail-fast-and-safe/</id>
+    <published>2012-11-02T03:23:15.000Z</published>
+    <updated>2016-04-18T06:10:37.438Z</updated>
+    
+    <content type="html"><![CDATA[<p>Fail-Fast <a href="http://en.wikipedia.org/wiki/Iterator" title="Iterator" target="_blank" rel="external">Iterators</a> fail as soon as they realized a thread is iterating over it,Structure of <a href="http://en.wikipedia.org/wiki/Container_%28data_structure%29" title="Container (data structure)" target="_blank" rel="external">Collection</a> has been changed since iteration has begun</p>
+<p>Structural changes like Create,Update,Delete</p>
+<blockquote>
+<p><span>Fail-Fast collections throw throws <span>ConcurrentModificationException</span></span><br>Whereas</p>
+</blockquote>
+<p>,<a href="http://en.wikipedia.org/wiki/File:Failsafe2000.JPG" target="_blank" rel="external"><img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Failsafe2000.JPG/75px-Failsafe2000.JPG" alt="Fail Safe (2000 TV)" title="Fail Safe (2000 TV)"></a>Iterator do not throw any Exception if collection is modified structurally,as they work on clone of collection instead of original collection.</p>
+<p>Which all are <a href="http://en.wikipedia.org/wiki/Fail-safe" title="Fail-safe" target="_blank" rel="external">fail-safe</a> collections?</p>
+<ul>
+<li><span><span>CopyOnWriteArrayList</span></span></li>
+<li>ConcurrentHashMap</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Fail-Fast &lt;a href=&quot;http://en.wikipedia.org/wiki/Iterator&quot; title=&quot;Iterator&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Iterators&lt;/a&gt; fail as soon as t
+    
+    </summary>
+    
+      <category term="Core Java" scheme="http://balijepalli.com/categories/Core-Java/"/>
+    
+    
+      <category term="Business" scheme="http://balijepalli.com/tags/Business/"/>
+    
+      <category term="C++" scheme="http://balijepalli.com/tags/C/"/>
+    
+      <category term="Container (data structure)" scheme="http://balijepalli.com/tags/Container-data-structure/"/>
+    
+      <category term="Exception handling" scheme="http://balijepalli.com/tags/Exception-handling/"/>
+    
+      <category term="Iterator" scheme="http://balijepalli.com/tags/Iterator/"/>
+    
+      <category term="Languages" scheme="http://balijepalli.com/tags/Languages/"/>
+    
+      <category term="Programming" scheme="http://balijepalli.com/tags/Programming/"/>
+    
+      <category term="Structural" scheme="http://balijepalli.com/tags/Structural/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Difference Between Set and List</title>
+    <link href="http://balijepalli.com/2012/11/02/difference-between-set-and-list/"/>
+    <id>http://balijepalli.com/2012/11/02/difference-between-set-and-list/</id>
+    <published>2012-11-02T01:57:54.000Z</published>
+    <updated>2016-04-18T06:10:37.435Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>Collection Interface List allows duplicate values, Set does not allow duplicate values</li>
+<li>List is ordered collection, Set is an unordered collection</li>
+<li>List maintains insertion order(First-in is Lower Index), Set does not mantain any order</li>
+<li>Various List Implementations(ArrayList,Vector,LinkedList)</li>
+<li>Various Set Implementations(HashSet,TreeSet,LinkedHashSet)</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Collection Interface List allows duplicate values, Set does not allow duplicate values&lt;/li&gt;
+&lt;li&gt;List is ordered collection, Set is 
+    
+    </summary>
+    
+      <category term="Core Java" scheme="http://balijepalli.com/categories/Core-Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Difference Between ArrayList and LinkedList</title>
+    <link href="http://balijepalli.com/2012/11/02/difference-between-arraylist-and-linkedlist/"/>
+    <id>http://balijepalli.com/2012/11/02/difference-between-arraylist-and-linkedlist/</id>
+    <published>2012-11-02T01:41:26.000Z</published>
+    <updated>2016-04-18T06:10:37.433Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>ArrayList is implemented using re sizable array whereas,LinkedList is implemented using doubly LinkedList.</li>
+<li>ArrayList insert needs re-size unlike LinkedList, It also warrants for index update if its not at the end of list.</li>
+<li>Search Mechanism is Index based search in case of ArrayList which is not for LinkedList.</li>
+<li>Removal of data is better in LinkedList compared to ArrayList</li>
+<li>Hence,Insertion ore removal kind of application would be recommended with LinkedList, which does not re-size during the cycle.</li>
+<li>ArrayList each index holds actual data  compared to LinkedList,which holds address of itself,next and previous node,so lesser memory overhead.</li>
+<li>ArrayList is recommended for <a href="http://en.wikipedia.org/wiki/Random_access" title="Random access" target="_blank" rel="external">random access</a> of data compared to LinkedList, where, we need to traverse entire list.</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;ArrayList is implemented using re sizable array whereas,LinkedList is implemented using doubly LinkedList.&lt;/li&gt;
+&lt;li&gt;ArrayList inser
+    
+    </summary>
+    
+      <category term="Core Java" scheme="http://balijepalli.com/categories/Core-Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Difference Between Hashtable and ConcurrentHashmap</title>
+    <link href="http://balijepalli.com/2012/11/02/difference-between-hashtable-and-concurrenthashmap/"/>
+    <id>http://balijepalli.com/2012/11/02/difference-between-hashtable-and-concurrenthashmap/</id>
+    <published>2012-11-02T01:14:59.000Z</published>
+    <updated>2016-04-18T06:10:37.435Z</updated>
+    
+    <content type="html"><![CDATA[<p>Prior one is part of Synchronised Collection classes <span><a href="http://en.wikipedia.org/wiki/Hash_table" title="Hash table" target="_blank" rel="external">Hashtable</a></span> and Vector are also Synchronised Wrapper classes</p>
+<ul>
+<li>Allows NULL values</li>
+<li><span>Where,Collections.synchronizedMap and Collections.synchronizedList, provide a basic conditionally <a href="http://en.wikipedia.org/wiki/Thread_safety" title="Thread safety" target="_blank" rel="external">thread-safe</a> implementation of Map and List</span></li>
+<li><span>Have to lock single collection wide lock to avoid ConcurrentModificationException and which would impediment to scalability</span></li>
+<li><p>Once the size of Hashtable increases , locking is done for longer duration to iteration, which would degrade the performance<br>Later one is introduced for the concept of segmentation ,so</p>
+</li>
+<li><p>Does not allow NULL values</p>
+</li>
+<li>Larger it becomes only certain part of it get locked to provide thread safety</li>
+<li>Used for high volume low latency apps</li>
+<li>Readers can access map without waiting for iterations to complete</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Prior one is part of Synchronised Collection classes &lt;span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Hash_table&quot; title=&quot;Hash table&quot; target=&quot;_
+    
+    </summary>
+    
+      <category term="Core Java" scheme="http://balijepalli.com/categories/Core-Java/"/>
+    
+    
+      <category term="Programming" scheme="http://balijepalli.com/tags/Programming/"/>
+    
+      <category term="ConcurrentHashmap" scheme="http://balijepalli.com/tags/ConcurrentHashmap/"/>
+    
+      <category term="Hashtable" scheme="http://balijepalli.com/tags/Hashtable/"/>
+    
+      <category term="Java" scheme="http://balijepalli.com/tags/Java/"/>
+    
+      <category term="Map" scheme="http://balijepalli.com/tags/Map/"/>
+    
+      <category term="NULL" scheme="http://balijepalli.com/tags/NULL/"/>
+    
+      <category term="Thread safety" scheme="http://balijepalli.com/tags/Thread-safety/"/>
+    
+      <category term="Threads" scheme="http://balijepalli.com/tags/Threads/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hashtable and Hashmap</title>
+    <link href="http://balijepalli.com/2012/11/02/hashtable-and-hashmap/"/>
+    <id>http://balijepalli.com/2012/11/02/hashtable-and-hashmap/</id>
+    <published>2012-11-02T00:52:46.000Z</published>
+    <updated>2016-04-18T06:10:37.440Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Similarities</strong> between Hashtable and Hasbmap</p>
+<ul>
+<li>Both extend Map Interface</li>
+<li>Both work on hashing principle</li>
+<li>Both are part of collection package</li>
+<li>Both provide constant time performance for put and get methods, if objects are distributed in uniform buckets</li>
+</ul>
+<p><strong>Differences</strong> between Hashtable and Hasbmap</p>
+<ul>
+<li>Hashtable - Threadsafe whereas Hashmap - Not Threadsafe</li>
+<li>Hashtable - Synchronised and not better performance as Hashmap</li>
+<li>Hashtable - Obselete(No Longer Available) class - Replace it by ConcurrentHashMap</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Similarities&lt;/strong&gt; between Hashtable and Hasbmap&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Both extend Map Interface&lt;/li&gt;
+&lt;li&gt;Both work on hashing principl
+    
+    </summary>
+    
+      <category term="Core Java" scheme="http://balijepalli.com/categories/Core-Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hive Series Part I  : Architecture Simplified.</title>
+    <link href="http://balijepalli.com/2012/03/02/hive-series-part-i-architecture-simplified/"/>
+    <id>http://balijepalli.com/2012/03/02/hive-series-part-i-architecture-simplified/</id>
+    <published>2012-03-02T00:55:09.000Z</published>
+    <updated>2016-04-18T06:10:37.440Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://preetambalijepalli.files.wordpress.com/2012/03/image001.png" target="_blank" rel="external"><img src="http://preetambalijepalli.files.wordpress.com/2012/03/image001.png" alt="" title="image001"></a></p>
+<p>Hence, this is how different components of Hive are stacked</p>
+<p><a href="http://preetambalijepalli.files.wordpress.com/2012/03/image002.png" target="_blank" rel="external"><img src="http://preetambalijepalli.files.wordpress.com/2012/03/image002.png" alt="" title="image002"></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://preetambalijepalli.files.wordpress.com/2012/03/image001.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://preetambalij
+    
+    </summary>
+    
+      <category term="Cloud Computing" scheme="http://balijepalli.com/categories/Cloud-Computing/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hadoop Eco System Hyperlinks</title>
+    <link href="http://balijepalli.com/2012/02/10/hadoop-eco-system-hyperlinks/"/>
+    <id>http://balijepalli.com/2012/02/10/hadoop-eco-system-hyperlinks/</id>
+    <published>2012-02-10T03:07:19.000Z</published>
+    <updated>2016-04-18T06:10:37.438Z</updated>
+    
+    <content type="html"><![CDATA[<!--[if gte mso 9]&gt;-->
+<!--[if gte mso 9]&gt;-->
+<div class="WordSection1"><table class="MsoTableLightShadingAccent3" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;"><tr style="height:25pt;"><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Logo: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Name: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Project Type: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">Description: </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:25pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#1F497D;">More Info: </span></strong><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache HDFS</span></strong><span style="color:#1F497D;"></span><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Distributed File System </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/hdfs/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/hdfs/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache MapReduce </span></strong><span style="color:#1F497D;"></span><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Framework </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Framework for parallel processing </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://hadoop.apache.org/mapreduce" target="_blank" rel="external"><span style="font-size:11pt;line-height:115%;color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/mapreduce</span></a></span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hbase </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Column oriented database, real-time querying </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hbase.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hbase.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hive </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">High-latency data warehousing analytics </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hive.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hive.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Pig </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">High level Hadoop programming language </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://pig.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://pig.apache.org/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Mahout </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Machine learning for clustering, classification, recommendation, and itemset mining </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://mahout.apache.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://mahout.apache.org/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Zookeeper </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Management </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration information, naming, providing distributed synchronization, and providing group services. </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/zookeeper/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/zookeeper/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Ganglia </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitoring </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Scalable distributed monitoring system for high-performance computing systems </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://ganglia.sourceforge.net/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://ganglia.sourceforge.net/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Nagios </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitoring </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Monitors applications, services, and business processes </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.nagios.org/about/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.nagios.org/about/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Apache Hadoop Streaming </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Analytics </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Create and run MapReduce jobs with any executable or script as the mapper and/or the reducer. </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoop.apache.org/common/docs/r0.15.2/streaming.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoop.apache.org/common/docs/r0.15.2/streaming.html</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Cascading </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Storage </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Java Query API, Query Planner, and Process Scheduler for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cascading.org/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cascading.org/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HadoopDB </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Development Environment </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Hybrid DBMS and MapReduce technology </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://hadoopdb.sourceforge.net/guide/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://hadoopdb.sourceforge.net/guide/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Karmasphere </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">User interface </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Development environment </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.karmasphere.com/Products-Information/karmasphere-studio.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.karmasphere.com/Products-Information/karmasphere-studio.html</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HUE </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Deployment </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Web UI for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-hue/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-hue/</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Puppet </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Deployment and configuration management </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://docs.puppetlabs.com/guides/introduction.html" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://docs.puppetlabs.com/guides/introduction.html</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Chef </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Management </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Configuration management </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://wiki.opscode.com/display/chef/Home" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://wiki.opscode.com/display/chef/Home</span></a> </span><br></td></tr><tr style="height:23.9pt;"><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Flume </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Data import </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:23.9pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Load data into HDFS from a variety of sources </span></strong><br></td><td valign="top" style="border:none;height:23.9pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-flume/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.cloudera.com/blog/2010/07/whats-new-in-cdh3b2-flume/</span></a> </span><br></td></tr><tr style="height:26.95pt;"><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:26.95pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">HOP </span></strong><br></td><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Realtime processing </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:26.95pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Online aggregation (approximate answers as a job runs), and stream processing (MapReduce jobs that run continuously, processing new data as it arrives) </span></strong><br></td><td valign="top" style="border:none;height:26.95pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://code.google.com/p/hop/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://code.google.com/p/hop/</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">sqoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Database integration </span><br></td><td valign="top" style="border:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">A database import/export tool for Hadoop </span></strong><br></td><td valign="top" style="border:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=https://github.com/cloudera/sqoop" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">https://github.com/cloudera/sqoop</span></a> </span><br></td></tr><tr style="height:21.35pt;"><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Ora-Oop </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Database integration </span><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;background:#E6EED5;height:21.35pt;padding:0 5.4pt;"><br><br><strong><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;">Connector between Oracle and Apache Hadoop </span></strong><br></td><td valign="top" style="border-top:solid #9BBB59 1pt;border-left:none;border-bottom:solid #9BBB59 1pt;border-right:none;height:21.35pt;padding:0 5.4pt;"><br><br><span style="font-size:10pt;line-height:115%;font-family:"Arial Narrow",sans-serif;color:#6D6D6D;"><a href="http://webmail.themodcorp.com/hwebmail/services/go.php?url=http://www.quest.com/Ora-Oop/" target="_blank" rel="external"><span style="color:#6D6D6D;text-decoration:none;">http://www.quest.com/Ora-Oop/</span></a> </span><br></td></tr></table><br><br><span style="color:#1F497D;">&nbsp;</span><br></div><br><div class="fb-comments"></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;!--[if gte mso 9]&amp;gt;--&gt;
+&lt;!--[if gte mso 9]&amp;gt;--&gt;
+&lt;div class=&quot;WordSection1&quot;&gt;&lt;table class=&quot;MsoTableLightShadingAccent3&quot; border=&quot;1&quot; cellspac
+    
+    </summary>
+    
+      <category term="Cloud Computing" scheme="http://balijepalli.com/categories/Cloud-Computing/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nine Things Successful People Do Differently - Heidi Grant Halvorson - the Conversation - Harvard Business Review</title>
+    <link href="http://balijepalli.com/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/"/>
+    <id>http://balijepalli.com/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/</id>
+    <published>2011-06-07T05:05:36.000Z</published>
+    <updated>2016-04-18T06:10:37.443Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blogs.hbr.org/cs/2011/02/nine_things_successful_people.html?cm_sp=most_widget-_-default-_-Nine+Things+Successful+People+Do+Differently" target="_blank" rel="external">Nine Things Successful People Do Differently - Heidi Grant Halvorson - The Conversation - Harvard Business Review</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blogs.hbr.org/cs/2011/02/nine_things_successful_people.html?cm_sp=most_widget-_-default-_-Nine+Things+Successful+People+D
+    
+    </summary>
+    
+      <category term="Leadership" scheme="http://balijepalli.com/categories/Leadership/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Naming Conflicts Inside Interface</title>
+    <link href="http://balijepalli.com/2010/06/21/naming-conflicts-inside-interface/"/>
+    <id>http://balijepalli.com/2010/06/21/naming-conflicts-inside-interface/</id>
+    <published>2010-06-21T05:46:21.000Z</published>
+    <updated>2016-04-18T06:10:37.443Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Case#1:</strong><em><strong>If two interfaces have the two are more same methods, **</strong>and then<strong>** only one method implementation is enough from both interfaces.</strong></em></p>
+<p>`interface Left { public void m1(); }</p>
+<p>interface Right{public void m1();}</p>
+<p>class Central implement Left, Right<br>{<br>public static void main(String arg[])</p>
+<p>{<br>public void m1(){ }<br>}<br>}`</p>
+<p><strong>Case#2:</strong><em><strong>The interface having same method name but different arguments.
+</strong></em>`Interface Inter</p>
+<p>{</p>
+<p>public void m1();</p>
+<p>public void m1(int x);</p>
+<p>}`</p>
+<p><strong>Case#3:</strong><em><strong>Same method name, same arguments but different written types.
+</strong></em>`Interface Left{public void m1();}</p>
+<p>Interface Right{public int m1();}</p>
+<p>class Central implement Left, Right</p>
+<p>{</p>
+<p>public static void main(String arg[])</p>
+<p>{</p>
+<p>public void m1() {}// error</p>
+<p>public int m1(){}// error</p>
+<p>}</p>
+<p>}<br>`<br>In the above class same method signature m1 is not allow .violation leads to compile time error.</p>
+<p><strong>Exceptional case: </strong><em><strong>We can’t provide implementation at a time for two or more interfaces having methods with same signature but different return **</strong>type.**</em></p>
+<p><em><strong>Variable Naming conflicts:
+</strong></em>`interface Left{int x=10;}</p>
+<p>interface Right{int x=100;}</p>
+<p>class Central implement Left, Right</p>
+<p>{<br>public static void Main(String arg[])</p>
+<p>{</p>
+<p>System.out.println(x); // reference to x is ambiguous both variables<br>System.out.println(Right.x);</p>
+<p>System.out.println(Left.x);</p>
+<p>}</p>
+<p>}`</p>
+<p>we can resolve variable naming conflicts using interface name.(i.e instead of x we have to specify left.x or right.x).</p>
+<ul>
+<li>One of my friend wanted the answers so posted this content</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Case#1:&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;If two interfaces have the two are more same methods, **&lt;/strong&gt;and then&lt;strong&gt;** only one method i
+    
+    </summary>
+    
+      <category term="Patterns and Refactoring" scheme="http://balijepalli.com/categories/Patterns-and-Refactoring/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>How to Make a Java Class Immutable</title>
+    <link href="http://balijepalli.com/2010/03/12/how-to-make-a-java-class-immutable/"/>
+    <id>http://balijepalli.com/2010/03/12/how-to-make-a-java-class-immutable/</id>
+    <published>2010-03-12T03:55:00.000Z</published>
+    <updated>2016-04-18T06:10:37.443Z</updated>
+    
+    <content type="html"><![CDATA[<p><a id="more"></a>====DRAFT VERSION IN EDIT/PUBLISH MODE====<br>In Object oriented and functional programming like java we have:</p>
+<ul>
+<li><p>Immutable objects<br>Example: Strings are considered immutable because the values contained in the reference variable cannot be changed.</p>
+</li>
+<li><p>Mutable objects<br>Example: String Buffer is considered mutable because the value in a string buffer can be changed (i.e. mutable)</p>
+</li>
+</ul>
+<p>How to make our user defined classes as immutable?</p>
+<ul>
+<li>To make a class immutable we must restrict changing the state of the class object by any means. This in turn means avoiding an assignment to a variable. We can achieve this through a final modifier.</li>
+<li>To further restrict the access we can use a private access modifier. Above do not provide any method where we modify the instance variables.<br><strong>Example One:</strong><blockquote>
+<p>class ImmutableCart {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private final List items;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public ImmutableCart(List items) {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.items = Collections.unmodifiableList(new ArrayList(items));</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public List getItems() {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; return items;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public int total() {&nbsp;&nbsp;&nbsp;&nbsp; /<em> return sum of the prices </em>/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br><strong>Example Two:</strong><br>/<em>This code demonstrates the way to make a class immutable</em>/</p>
+<p>// The immutable class which is made final</p>
+<p>final class MyImmutableClass</p>
+<p>{</p>
+<p>// instance var are made private &amp; final to restrict the access</p>
+<p>private final int idx;</p>
+<p>private final double val;</p>
+<p>// Constructor where we can provide the constant value</p>
+<p>public MyImmutableClass(int index,double value)</p>
+<p>{</p>
+<p>idx = index;</p>
+<p>val = value;</p>
+<p>}</p>
+<p>// provide only methods which return the instance var &amp; not change the values</p>
+<p>public int getIdx()</p>
+<p>{</p>
+<p>return idx;</p>
+<p>}</p>
+<p>public double getVal ()</p>
+<p>{</p>
+<p>return val;</p>
+<p>}</p>
+<p>}<br>// class TestImmutable</p>
+<p>public class TestImmutable</p>
+<p>{</p>
+<p>public static void main(String[] args)</p>
+<p>{</p>
+<p>MyImmutableClass obj1 = new MyImmutableClass(3,5);</p>
+<p>System.out.println(obj1.getIdx());</p>
+<p>System.out.println(obj1.getVal ());</p>
+<p>// there is no way to change the values of index &amp; value-</p>
+<p>// no method to call besides getXX, no subclassing, no public access to var -&gt; Immutable</p>
+<p>}</p>
+<p>}<br><strong>Pro/Con of making an object immutable</strong><br>Immutable objects are often useful because some costly operations for copying and comparing can be omitted, simplifying the program code and speeding execution.<br>However, making an object immutable is usually inappropriate if the object contains a large amount of changeable data. Because of this, many languages allow for both immutable and mutable objects.<br>Additionally, all of the primitive wrapper classes in Java are immutable.<br><strong>Copy-on-write</strong><br>A technique which blends the advantages of mutable and immutable objects, and is supported directly in almost all modern hardware, is copy-on-write (COW). Using this technique, when a user asks the system to copy an object, it will instead merely create a new reference which still points to the same object. As soon as a user modifies the object through a particular reference, the system makes a real copy and sets the reference to refer to the new copy. The other users are unaffected, because they still refer to the original object. Therefore, under COW, all users appear to have a mutable version of their objects, although in the case that users do not modify their objects, the space-saving and speed advantages of immutable objects are preserved. Copy-on-write is popular in virtual memory systems because it allows them to save memory space while still correctly handling anything an application program might do.</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;
+    
+    </summary>
+    
+      <category term="Patterns and Refactoring" scheme="http://balijepalli.com/categories/Patterns-and-Refactoring/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>EAI vs ESB vs SOA</title>
+    <link href="http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/"/>
+    <id>http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/</id>
+    <published>2010-02-23T01:14:25.000Z</published>
+    <updated>2016-04-18T06:10:37.435Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong><strong>INTRODUCTION</strong></strong></p>
+<p>This paper aims to bring clarity to terms EAI, ESB, SOA and provide a clear distinction. Also this paper would discuss architecture options available for enterprise integration and what these options are most suitable for. Finally this paper would address the discussions we have seen in various forums about whether EAI is going to be replaced by SOA or ESB.</p>
+<p><strong><strong>SOA</strong></strong></p>
+<p>Service oriented architecture is approach to have software resources in an enterprise available and discoverable on network as well defined services. Each service would achieve a predefined business objective and perform discrete units of work. The services are independent and do not depend on the context or state of the other services. They work within distributed systems architecture.</p>
+<p>Earlier SOA used COM or ORB based on CORBA specifications and recent SOA stress on web services using standard description (WSDL), discovery (UDDI) and messaging (SOAP).Service oriented architecture may or may not use web services but yes web services provide a simple way towards service oriented architecture albeit with the age old security and reliability limitations.</p>
+<p><strong><strong>EAI</strong></strong></p>
+<p>Enterprise application integration is a business need to make diverse applications in an enterprise including partner systems to communicate to each other to achieve a business objective in a seamless reliable fashion irrespective of platform and geographical location of these applications. It is a business need and business never dies it only evolves. I have seen people saying that EAI is a thing of past now SOA is here, it is just like saying “transportation is a thing of past now road is here”.</p>
+<p>EAI comprises of message acceptance, transformation, translation, routing, message delivery and business process management. Usually messages transportation is asynchronous but for a business need it can be synchronous as well. There are two basic architectures to achieve this, bus and hub/spoke architecture. Both of these can be used to develop services and then it also becomes service orientated architecture.</p>
+<p><div><strong><strong> </strong></strong></div><br><strong><strong> </strong></strong></p>
+<p><strong><strong> </strong></strong></p>
+<p>[caption id=”attachment_167” align=”alignleft” width=”150” caption=”HUB/SPOKE”]<a href="http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/hs/"><img src="http://preetambalijepalli.files.wordpress.com/2010/02/hs.jpg?w=150" alt="HUB/SPOKE" title="HS"></a>[/caption]</p>
+<p><strong>HUB/SPOKE</strong></p>
+<p>Hub/Spoke architecture uses a centralized broker (Hub) and adapters (Spoke) which connect applications to Hub. Spoke connect to application and convert application data format to a format which Hub understands and vice versa. Hub on the other hand brokers all messages and takes care of content transformation/translation of the incoming message into a format the destination system understands and routing the message. Adapters take data from source application and publish messages to the message broker, which, in turn, does t<em>ransformation/translation/routing and passes messages to subscribing adapter</em> which sends it to destination application(s). Having a single Hub makes system with this architecture easy to manage but scalability takes a hit. At some point of time as number of messages increase, scalability gets dependent on hardware. Having a bigger box to scale application has never been an ideal solution so to overcome this limitation most vendors have incorporated the concept of federated hub and spoke architecture in which multiple hubs can be present; each hub would have local metadata and rules as well as global metadata. Changes to global rules and metadata are automatically propagated to other EAI vs. SOA vs. ESB hubs. Federated hub spoke architecture alleviates scalability issue while central management of multiple hubs makes this architecture easy to manage and brings down support cost.</p>
+<hr>
+<hr>
+<p>[caption id=”attachment_170” align=”alignleft” width=”150” caption=”Bus”]<a href="http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/bus/"><img src="http://preetambalijepalli.files.wordpress.com/2010/02/bus.jpg?w=150" alt="Bus" title="Bus"></a>[/caption]</p>
+<p><strong>BUS</strong></p>
+<p>Bus architecture uses a central messaging backbone (bus) for message propagation. Applications would publish messages to bus using adapters. These messages would flow to subscribing applications using message bus. Subscribing applications will have adapters which would take message from bus and transform the message into a format required for the application. Key difference between hub/spoke and bus topology is that for the bus architecture, the integration engine that performs message transformation and routing is distributed in the application adapters and bus architecture requires an application adapter to run on the same platform as the original applications. Since adapters have integration engine and run on same platform on which source and target applications run, this scales much better and is complex to maintain compared to hub/spoke topology.</p>
+<p><strong>ESB:</strong>Enterprise service bus is an infrastructure to facilitate SOA. It gives API which can be used to develop services and makes services interact with each other reliably. Technically ESB is a messaging backbone which does protocol conversion, message format transformation, routing, accept and deliver messages from various services and application which are linked to ESB.Current EAI landscape is seeing many vendors who offer enterprise service bus and claim it to be a brand new concept. This brings a question on what exactly is the difference between ESB and the bus based implementations which have been there in market for quite a long time now. Actually there is not much difference between ESB and proprietary buses except for a few subtle ones. Main difference between ESB and proprietary bus implementation is of cost which is significantly low for ESB. Reason for this cost difference is twofold, first proprietary bus offers lot of built in functionalities as a suit of product which need to be developed for ESB implementations based on business requirement, second most proprietary buses use some proprietary formats to enhance the performance and that increases the cost. ESB on the other hand is usually standard based, so it is a tradeoff between performance and cost between proprietary bus and ESB. Main advantage of ESB is that it costs much less then hub/spoke or bus based product suits and that it is standard based.</p>
+<p><strong>CONCLUSION</strong></p>
+<p>Following table give a quick comparison of hub/spoke, bus based product suits and ESB. Also all these three architectures can be service oriented depending on implementation which is reflected in this comparison.</p>
+<p><table style="width:575px;height:383px;" border="1" width="575"></table></p>
+<p><tbody></tbody></p>
+<p><tr></tr></p>
+<p><td></td></p>
+<p><table style="width:559px;height:305px;" border="1" width="559"></table></p>
+<p><tbody></tbody></p>
+<p><tr></tr></p>
+<p><td><strong>Evaluation Bus Architecture</strong></td></p>
+<p><td><strong>Hub Architecture</strong></td></p>
+<p><td colspan="2"><strong>Evaluation Bus Architecture</strong></td><br></p>
+<p><tr></tr></p>
+<p><td><strong>
+</strong></td></p>
+<p><td></td></p>
+<p><td><strong>Proprietary bus based product suit</strong></td></p>
+<p><td><strong>ESB</strong></td><br></p>
+<p><tr></tr></p>
+<p><td><strong>Installation Effort</strong></td></p>
+<p><td>Less installation effort compared to solutions with bus architecture</td></p>
+<p><td>Moderate</td></p>
+<p><td>Moderate</td><br></p>
+<p><tr></tr></p>
+<p><td><strong>Administration</strong></td></p>
+<p><td>Easy to maintain because of central HUB</td></p>
+<p><td>Complex Administration depending on integration</td></p>
+<p><td>Complex Administration depending on integration</td><br></p>
+<p><tr></tr></p>
+<p><td><strong>Cost</strong></td></p>
+<p><td>High</td></p>
+<p><td>High</td></p>
+<p><td>Low</td><br></p>
+<p><tr></tr></p>
+<p><td><strong>Scalability</strong></td></p>
+<p><td>Moderate</td></p>
+<p><td>High</td></p>
+<p><td>High</td><br></p>
+<p><tr></tr></p>
+<p><td><strong>Standards</strong></td></p>
+<p><td>Mostly standard basedbut may useproprietary internal formats</td></p>
+<p><td>Mostly standard basedbut may useproprietary internal formats</td></p>
+<p><td>Standard Based</td><br></p>
+<p><tr></tr></p>
+<p><td><strong>SOA</strong></td></p>
+<p><td>Can be Implemented as SOA</td></p>
+<p><td></td></p>
+<p><td>SOA</td><br><br><br><br><br><br><br><br>SOA brings cost effective, reusable and low lead time solutions to an organization but EAI and SOA are both going to coexist. Web services alone as SOA can not handle the complex,secure and SLA based applications of an enterprise currently and unless we see a technological break through it is going to remain that way.Enterprise service bus would enable low cost integration and would be used by companies with limited IT resources and environments that involve a handful of systems and moderate transaction volumes. Packaged EAI solutions would have SOA as basic tenet and would continue to be used for large scale integration by companies having huge number of diverse system and high transaction volumes. Next generation EAI solutions would use more and more of SOA to provide reliable, secure, low cost and flexible solutions.</p>
+<p><strong>TAKEAWAYS SUMMARY</strong></p>
+<ul>
+<li>SOA brings cost effective, reusable and low lead time solutions to an organization but EAI and SOA are both going to coexist.</li>
+<li>SOA is more than web services, in fact web services alone cannot handle the complex, secure and SLA based applications of an enterprise.</li>
+<li>Enterprise service bus would enable low cost integration and would be used by companies with limited IT resources</li>
+<li>Packaged EAI solutions in future would have SOA as basic tenet and would continue to be the prime choice for large scale integration.<br><strong><em>From an Article published on internet</em></strong></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;strong&gt;INTRODUCTION&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This paper aims to bring clarity to terms EAI, ESB, SOA and provide a clear distinc
+    
+    </summary>
+    
+      <category term="SOA" scheme="http://balijepalli.com/categories/SOA/"/>
+    
+    
+      <category term="Technology" scheme="http://balijepalli.com/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cloud Providers</title>
+    <link href="http://balijepalli.com/2010/02/19/cloud-providers/"/>
+    <id>http://balijepalli.com/2010/02/19/cloud-providers/</id>
+    <published>2010-02-19T01:57:07.000Z</published>
+    <updated>2016-04-18T06:10:37.433Z</updated>
+    
+    <content type="html"><![CDATA[<p>Cloud computing infrastructure tech&amp;solution provider:</p>
+<ul>
+<li><a href="http://www.3tera.com/" target="_blank" rel="external">3Tera</a> - AppLogic grid OS used as cloud computing platform by service providers and enterprises</li>
+<li><a href="http://www.appistry.com/" target="_blank" rel="external">Appistry - Cloud computing middleware</a> - Enables easily scalable cloud computing in the enterprise.</li>
+<li><a href="http://www.cassatt.com/" target="_blank" rel="external">Cassatt</a> - Cassatt Active Response platform enables administrators to set policies to power physical and virtual servers safely on and off and pool their computing resources.</li>
+<li><a href="http://www.cloudcomputingchina.com" target="_blank" rel="external">CloudHan</a> - Cloud tech and infrastructure consultant, in China.</li>
+<li><a href="http://www.cloudscale.net/" target="_blank" rel="external">CloudScale Networks</a> - Cloud enabler. Currently in private ALPHA only</li>
+<li><a href="http://www.joyent.com" target="_blank" rel="external">Joyent</a> - Cloud Infrastructure (Accelerators), and consulting for developers and enterprise.</li>
+<li><a href="http://www.nscaled.com" target="_blank" rel="external">nScaled, Inc</a> - Cloud related services such as Migrations, Deployment, Planning, Consulting</li>
+<li><a href="http://www.qlayer.com/" target="_blank" rel="external">Q-layer</a> - provides software for data centers that enables cloud computing, support VSAN, VLAN, VPDC, currently support VMware ESX.</li>
+<li><a href="http://www.skytap.com/" target="_blank" rel="external">Skytap</a> - IaaS service optimized for QA, Training, Demo, and Ops Testing. Supports VMware, Xen hypervisors &amp; Windows, Linux &amp; Solaris OS guests.</li>
+<li><a href="http://www.webscalesolutions.com" target="_blank" rel="external">Webscale Solutions</a> - IT Strategy and Consulting on Cloud computing. Specialize in ROI investigations of CC. a CC provider evaluation framework and Enterprise Cloud Roadmap development.</li>
+</ul>
+<p>Cloud computing infrastructure provider:</p>
+<ul>
+<li><a href="http://www.agathongroup.com/" target="_blank" rel="external">Agathon Group</a> - Cloud provider. Services include highly available VPS, virtual private datacenters and ready-to-use LAMP stacks. Self-service ordering. Custom development and managed services available.</li>
+<li><a href="http://aws.amazon.com/" target="_blank" rel="external">Amazon Web Services</a> - Amazon EC2/S3 (Hardware-a-a-S &amp; Cloud Storage)</li>
+<li><a href="http://es.cohesiveft.com/" target="_blank" rel="external">CohesiveFT</a> - CohesiveFT <a href="http://elasticserver.com/" target="_blank" rel="external">Elastic Server Factory</a> - Webservice for assembling full application stacks (contextualization, custom apps, middleware, on top of base configs) with deployment to many virtual and cloud environs.</li>
+<li><a href="http://www.elastichosts.com/" target="_blank" rel="external">ElasticHosts</a> - UK-based instant, on-demand servers in the cloud</li>
+<li><a href="http://www.flexiscale.com/" target="_blank" rel="external">Flexiscale</a> - Another instant provisioner of web servers with some advanced features like auto-scaling coming soon.</li>
+<li><a href="http://www.gogrid.com/" target="_blank" rel="external">GoGrid</a> - instant, on-demand servers offering &quot;control in the cloud&quot;. Deploy Windows/Linux servers via web-interface in minutes</li>
+<li><a href="http://www.thegridlayer.com/" target="_blank" rel="external">GridLayer</a> - Cloud Provider. A service by Layered Technologies that delivers <a href="http://www.thegridlayer.com/products/virtual-private-datacenters.php" target="_blank" rel="external">Virtual Private Datacenters</a> and virtual private servers from grids of commodity servers</li>
+<li><a href="http://layeredtech.com/" target="_blank" rel="external">LayeredTechnologies </a>- Cloud Provider. provider of on-demand hosting and cloud and utility computing solutions through its brand <a href="http://www.thegridlayer.com/" target="_blank" rel="external">GridLayer</a></li>
+<li><a href="http://www.reliacloud.com/" target="_blank" rel="external">ReliaCloud</a> - Deployed within a robust and resilient virtualization environment and architected to maximize uptime and performance. Free benefits include high availability, load balancing, robust APIs, and persistent servers.</li>
+<li><a href="http://www.mosso.com/" target="_blank" rel="external">Mosso</a> - Rackspace’s cloud hosting service</li>
+<li><a href="http://www.newservers.com/" target="_blank" rel="external">Newservers</a> - Instant provisioning of web servers either Windows or Linux</li>
+<li><a href="http://www.pluraprocessing.com" target="_blank" rel="external">Plura Processing</a> - On-demand infrastructure for high-performance computing</li>
+</ul>
+<p>Cloud computing Paas provider:</p>
+<ul>
+<li><a href="http://www.aptana.com/cloud" target="_blank" rel="external">Aptana Cloud</a> - Elastic Elastic Application Cloud™ featuring fully stacked and integrated PHP app engines, Ajax/Jaxer app engines, and soon Ruby on Rails app engines – ready to use and ready to scale as you need it.</li>
+<li><a href="http://www.bungeeconnect.com/" target="_blank" rel="external">Bungee Connect</a> - Provides end to end tools and systems required to develop, deploy and host web applications (Platform as a Service)</li>
+<li><a href="http://www.oracle.com/technology/products/coherence/index.html" target="_blank" rel="external">Coherence</a> - Oracle Coherence Data Grid for EC2 and other cloud platforms</li>
+<li><a href="http://www.force.com/" target="_blank" rel="external">Force.com</a> - Salesforce.com’s application development platform (PaaS)</li>
+<li><a href="http://www.gigaspaces.com/" target="_blank" rel="external">GigaSpaces</a> - middleware for the cloud, &quot;cloudware&quot;</li>
+<li><a href="http://appengine.google.com/" target="_blank" rel="external">Google AppEngine</a> - (PaaS)Now support python</li>
+<li><a href="http://www.heroku.com/" target="_blank" rel="external">Heroku</a> - Ruby on Rails in their Cloud</li>
+<li><a href="http://mor.ph" target="_blank" rel="external">Morph Labs</a> - Fully managed, open, elastically-scalable, end-to-end deployment and delivery platform for Ruby on Rails and Java (Jetty, JRuby, Groovy and Grails) web applications. Leverages AWS, but completely abstracts details and complexities from developers.</li>
+<li><a href="http://developer.intuit.com/ipp" target="_blank" rel="external">Intuit Partner Platform</a> (IPP) - Platform as a Service (PaaS) from Intuit.</li>
+<li><a href="http://www.qrimp.com/" target="_blank" rel="external">Qrimp</a> - An AJAX based PaaS</li>
+<li><a href="http://rightscale.com/" target="_blank" rel="external">RightScale</a> - RightScale provides a platform and expertise that enable companies to create scalable web applications running on Amazon’s Web Services that are reliable, easy to manage, and cost less</li>
+<li><a href="http://www.stax.net" target="_blank" rel="external">Stax</a> - Java Platform as a Service</li>
+</ul>
+<p>Cloud computing based service provider:</p>
+<ul>
+<li><a href="http://www.camsolutionsinc.com/" target="_blank" rel="external">CAM Solutions</a> - Monitoring-as-a-Service(TM)</li>
+<li><a href="http://www.cloudstatus.com/" target="_blank" rel="external">CloudStatus</a>- CloudEnabler. Real-time performance trending of cloud infrastructure (currently AWS).</li>
+<li><a href="http://www.datasisar.com" target="_blank" rel="external">DATASiSAR</a> - Cloud Computing technology based consulting &amp; IT Services provider</li>
+<li><a href="http://www.kaavo.com/" target="_blank" rel="external">Kaavo</a>‘s <a href="https://www.imodlive.com/" target="_blank" rel="external">IMOD </a>is an easy to use online application. Cloud Computing Made Easy.</li>
+<li><a href="http://www.mesh.com/" target="_blank" rel="external">Microsoft Mesh</a></li>
+<li><a href="http://www.nasstar.com/" target="_blank" rel="external">Nasstar</a> - SaaS provider. Business grade Hosted Desktop service, UK market leaders.</li>
+<li><a href="http://www.nirvanix.com/" target="_blank" rel="external">Nirvanix</a> - Cloud Storage</li>
+<li><a href="http://trustsaas.com/" target="_blank" rel="external">TrustSaaS</a> - uptime monitoring and alerting service (‘SaaS Weather Report’) for Software as a Service (SaaS) run by an independent third party.</li>
+<li><a href="http://www.utilitystatus.com/" target="_blank" rel="external">UtilityStatus </a>- Utility Computing Platform for SaaS charged in elapsed CPU time running on EC2.</li>
+</ul>
+<p>Semantic computing Cloud service provider:</p>
+<ul>
+<li><a href="http://www.thoughtexpress.com" target="_blank" rel="external">ThoughtExpress</a> - Generic Enterprise Management Service based in semantics supported by semantic computing cloud to perform enterprise information processing to deliver: BPM, BI, enterprise modelling &amp; semantic human interface without the need to program.</li>
+</ul>
+<p>Cloud Security Consultants and Overlay Network Providers<br><a href="http://es.cohesiveft.com/" target="_blank" rel="external">CohesiveFT</a> - CohesiveFT’s <a href="http://www.cohesiveft.com/vpncubed/" target="_blank" rel="external">VPN-Cubed</a> products are virtual firewallls, switches, hubs, and routers that are used to build overlay networks in clouds, across clouds, and to connect enterprise data centers to public clouds.<br>Cloud End-Points:</p>
+<ul>
+<li><a href="http://www.moderro.com/Product/index.html" target="_blank" rel="external">XPack </a>- a dedicated cloud end-point from Moderro Technologies. A solid-state, power-saving, VESA mountable desktop appliance with custom desktop environment designed for web applications.</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Cloud computing infrastructure tech&amp;amp;solution provider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.3tera.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;3T
+    
+    </summary>
+    
+      <category term="Cloud Computing" scheme="http://balijepalli.com/categories/Cloud-Computing/"/>
+    
+    
+      <category term="Technology" scheme="http://balijepalli.com/tags/Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring-Jar Usage</title>
+    <link href="http://balijepalli.com/2010/02/04/140/"/>
+    <id>http://balijepalli.com/2010/02/04/140/</id>
+    <published>2010-02-04T05:02:06.000Z</published>
+    <updated>2016-04-18T06:10:37.433Z</updated>
+    
+    <content type="html"><![CDATA[<p>Cheat sheet for your reference when you add libraries to your projects, this reference should avoid redundant jars from your projects</p>
+<p><table border="1" cellspacing="0" cellpadding="0"></table></p>
+<p><tbody></tbody></p>
+<p><tr></tr></p>
+<p><td valign="top">Following files are in the spring framework package.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"></td></p>
+<p><table border="1" cellspacing="0" cellpadding="0"></table></p>
+<p><tbody></tbody></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>jar</strong></td></p>
+<p><td valign="top"><strong>Descriptions</strong></td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring.jar </strong></td></p>
+<p><td valign="top">It contains the entire Spring framework including everything in the other JAR files also.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-core.jar </strong></td></p>
+<p><td valign="top">It contains the core Spring container and its utilities.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-beans.jar </strong></td></p>
+<p><td valign="top">It contains the bean Spring container and JavaBeans support utilities.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-aop.jar </strong></td></p>
+<p><td valign="top">It contains Spring’s AOP framework, source-level metadata support, AOP Alliance interfaces etc.,</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-context.jar </strong></td></p>
+<p><td valign="top">It contains application context, validation framework, JNDI, templating support and scheduling.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-dao.jar </strong></td></p>
+<p><td valign="top">It contains DAO support and transaction infrastructure.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-jdbc.jar </strong></td></p>
+<p><td valign="top">It contains the JDBC support.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-support.jar </strong></td></p>
+<p><td valign="top">It contains JMX support, JCA support, scheduling support, mail support and caching support.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-web.jar </strong></td></p>
+<p><td valign="top">It contains the web application context, multipart resolver, Struts support, JSF support and web utilities.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-webmvc.jar </strong></td></p>
+<p><td valign="top">It contains the framework servlets, web MVC framework, web controllers and web views.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-remoting.jar </strong></td></p>
+<p><td valign="top">It contains remoting support, EJB support and JMS support.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-orm.jar </strong></td></p>
+<p><td valign="top">It contains iBATIS SQL Maps support, Apache OJB support, TopLink support and JDO support.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-hibernate.jar </strong></td></p>
+<p><td valign="top">It contains Hibernate 2.1 support, Hibernate 3.x support.</td><br></p>
+<p><tr></tr></p>
+<p><td valign="top"><strong>spring-mock.jar </strong></td></p>
+<p><td valign="top">It contains JNDI mocks, Servlet API mocks and JUnit support.</td><br><br><br><br>&nbsp;<br><br><br><br>&nbsp;</p>
+<p>The <a href="http://static.springsource.org/spring/docs/2.5.x/reference/beans.html#beans-introduction" title="3.1.&nbsp;Introduction" target="_blank" rel="external"><em>Core</em></a> package is the most fundamental part of the framework and provides the IoC and Dependency Injection features. The basic concept here is the <tt>BeanFactory</tt>, which provides a sophisticated implementation of the factory pattern which removes the need for programmatic singletons and allows you to decouple the configuration and specification of dependencies from your actual program logic.</p>
+<p>The <a href="http://static.springsource.org/spring/docs/2.5.x/reference/beans.html#context-introduction" title="3.8.&nbsp;The ApplicationContext" target="_blank" rel="external"><em>Context</em></a> package build on the solid base provided by the <a href="http://static.springsource.org/spring/docs/2.5.x/reference/beans.html#beans-introduction" title="3.1.&nbsp;Introduction" target="_blank" rel="external"><em>Core</em></a> package: it provides a way to access objects in a framework-style manner in a fashion somewhat reminiscent of a JNDI-registry. The context package inherits its features from the beans package and adds support for internationalization (I18N) (using for example resource bundles), event-propagation, resource-loading, and the transparent creation of contexts by, for example, a servlet container.</p>
+<p>The <a href="http://static.springsource.org/spring/docs/2.5.x/reference/dao.html#dao-introduction" title="10.1.&nbsp;Introduction" target="_blank" rel="external"><em>DAO</em></a> package provides a JDBC-abstraction layer that removes the need to do tedious JDBC coding and parsing of database-vendor specific error codes. Also, the <a href="http://static.springsource.org/spring/docs/2.5.x/reference/jdbc.html#jdbc-introduction" title="11.1.&nbsp;Introduction" target="_blank" rel="external">JDBC</a> package provides a way to do programmatic as well as declarative transaction management, not only for classes implementing special interfaces, but for <em>all your POJOs (plain old Java objects)</em>.</p>
+<p>The <a href="http://static.springsource.org/spring/docs/2.5.x/reference/orm.html#orm-introduction" title="12.1.&nbsp;Introduction" target="_blank" rel="external"><em>ORM</em></a> package provides integration layers for popular object-relational mapping APIs, including <a href="http://static.springsource.org/spring/docs/2.5.x/reference/orm.html#orm-jpa" title="12.6.&nbsp;JPA" target="_blank" rel="external">JPA</a>, <a href="http://static.springsource.org/spring/docs/2.5.x/reference/orm.html#orm-jdo" title="12.3.&nbsp;JDO" target="_blank" rel="external">JDO</a>, <a href="http://static.springsource.org/spring/docs/2.5.x/reference/orm.html#orm-hibernate" title="12.2.&nbsp;Hibernate" target="_blank" rel="external">Hibernate</a>, and <a href="http://static.springsource.org/spring/docs/2.5.x/reference/orm.html#orm-ibatis" title="12.5.&nbsp;iBATIS SQL Maps" target="_blank" rel="external">iBatis</a>. Using the ORM package you can use all those O/R-mappers in combination with all the other features Spring offers, such as the simple declarative transaction management feature mentioned previously.</p>
+<p>Spring’s <a href="http://static.springsource.org/spring/docs/2.5.x/reference/aop.html#aop-introduction" title="6.1.&nbsp;Introduction" target="_blank" rel="external"><em>AOP</em></a> package provides an <em>AOP Alliance</em>-compliant aspect-oriented programming implementation allowing you to define, for example, method-interceptors and pointcuts to cleanly decouple code implementing functionality that should logically speaking be separated. Using source-level metadata functionality you can also incorporate all kinds of behavioral information into your code, in a manner similar to that of .NET attributes.</p>
+<p>Spring’s <em>Web</em> package provides basic web-oriented integration features, such as multipart file-upload functionality, the initialization of the IoC container using servlet listeners and a web-oriented application context. When using Spring together with WebWork or Struts, this is the package to integrate with.</p>
+<p>Spring’s <a href="http://static.springsource.org/spring/docs/2.5.x/reference/mvc.html#mvc-introduction" title="13.1.&nbsp;Introduction" target="_blank" rel="external"><em>MVC</em></a> package provides a Model-View-Controller (MVC) implementation for web-applications. Spring’s MVC framework is not just any old implementation; it provides a <em>clean</em> separation between domain model code and web forms, and allows you to use all the other features of the Spring Framework.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Cheat sheet for your reference when you add libraries to your projects, this reference should avoid redundant jars from your projects&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Spring" scheme="http://balijepalli.com/categories/Spring/"/>
+    
+    
+      <category term="Technology" scheme="http://balijepalli.com/tags/Technology/"/>
+    
+  </entry>
+  
+</feed>
