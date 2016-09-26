@@ -4,11 +4,12 @@
 
 # Site
 title: Curiosity Of Agile Architect
-subtitle: IT DOESN’T MATTER IF YOU ARE A LION OR A GAZELLE. WHEN THE SUN COMES UP, YOU BETTER BE RUNNING. !!
+subtitle: It doesn’t matter if you are A LION OR A GAZELLE. When the Sun comes Up, You BETTER be RUNNING. !!
 description: A tech geek's blog.
 author: Preetam Balijepalli
 language: en
 timezone:
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -42,6 +43,7 @@ highlight:
   line_number: true
   auto_detect: true
   tab_replace:
+  theme: normal
 
 # Category & Tag
 default_category: uncategorized
@@ -60,6 +62,31 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+menu:
+  home: /
+  categories: /categories
+  about: /about
+  archives: /archives
+  tags: /tags
+  contact: /contact
+#  commonweal: /404.html
+
+
+menu_icons:
+  enable: true
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  home: home
+  about: user
+  categories: th
+  tags: tags
+  archives: archive
+  commonweal: heartbeat
+
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
@@ -67,48 +94,40 @@ theme: next
 
 since: 2010
 
-disqus_shortname: balijepalli
+disqus:
+  enable: true
+  shortname: preetambalijepalli
 
 # avatar
 avatar: /images/me.jpg
 
- author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
-        # stack_overflow:
-        #     title: global.stack_overflow
-        #     url: http://stackoverflow.com/users
-        #     icon: stack-overflow
-        # twitter:
-        #     title: global.twitter
-        #     url: https://twitter.com/
-        #     icon: twitter
-        # facebook:
-        #     title: global.facebook
-        #     url: https://facebook.com/
-        #     icon: facebook
-        # google_plus:
-        #     title: global.google_plus
-        #     url: https://plus.google.com/
-        #     icon: google-plus
-        # linked_in:
-        #     title: global.linkedin
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+
 # social links
 social:
-  GitHub: https://github.com/balijepalli
+           Github: https://github.com/balijepalli
+           StackOverflow: http://stackoverflow.com/users/3300540/preetam-balijepalli
+           Twitter: https://twitter.com/balijepalli
+           Facebook: https://facebook.com/preetam.balijepalli
+           LinkedIn: https://www.linkedin.com/profile/in/preetambalijepalli
+           Mail: preetam.balijepalli@gmail.com
+           # GooglePlus: https://plus.google.com/
+
+# Social Links Icons
+# Icon Mapping:
+#   Map a menu item to a specific FontAwesome icon name.
+#   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
+#   When an globe mask icon presenting up means that the item has no mapping icon.
+social_icons:
+  enable: true
+  # Icon Mappings.
+  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+  GitHub: github
+  StackOverflow : stack-overflow
+  Twitter: twitter
+  Facebook: facebook
+  LinkedIn: linkedin
+  GooglePlus: google-plus
+  Mail: envelope-o
 
 google_analytics:
 
@@ -119,3 +138,9 @@ deploy:
   repo: https://github.com/balijepalli/balijepalli.github.io
   branch: master
   message: "normal deployment"
+
+tag_generator:
+  per_page: 10
+
+category_generator:
+  per_page: 10

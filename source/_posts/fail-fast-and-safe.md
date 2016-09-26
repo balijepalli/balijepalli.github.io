@@ -18,9 +18,7 @@ Fail-Fast [Iterators](http://en.wikipedia.org/wiki/Iterator "Iterator") fail as 
 
 Structural changes like Create,Update,Delete
 > <span>Fail-Fast collections throw throws <span>ConcurrentModificationException</span></span>
-Whereas
-
-,[![Fail Safe (2000 TV)](http://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Failsafe2000.JPG/75px-Failsafe2000.JPG "Fail Safe (2000 TV)")](http://en.wikipedia.org/wiki/File:Failsafe2000.JPG)Iterator do not throw any Exception if collection is modified structurally,as they work on clone of collection instead of original collection.
+Whereas,Iterator do not throw any Exception if collection is modified structurally,as they work on clone of collection instead of original collection.
 
 Which all are [fail-safe](http://en.wikipedia.org/wiki/Fail-safe "Fail-safe") collections?
 
