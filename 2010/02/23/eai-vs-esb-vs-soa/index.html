@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="INTRODUCTION This paper aims to bring clarity to terms EAI, ESB, SOA and provide a clear distinction. Also this paper would discuss architecture options available for enterprise integration and what t">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EAI vs ESB vs SOA">
+<meta property="og:url" content="http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/index.html">
+<meta property="og:site_name" content="Curiosity Of Agile Architect">
+<meta property="og:description" content="INTRODUCTION This paper aims to bring clarity to terms EAI, ESB, SOA and provide a clear distinction. Also this paper would discuss architecture options available for enterprise integration and what t">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://preetambalijepalli.files.wordpress.com/2010/02/hs.jpg?w=150">
+<meta property="og:image" content="http://preetambalijepalli.files.wordpress.com/2010/02/bus.jpg?w=150">
+<meta property="article:published_time" content="2010-02-23T01:14:25.000Z">
+<meta property="article:modified_time" content="2022-12-19T05:42:21.234Z">
+<meta property="article:author" content="Preetam Balijepalli">
+<meta property="article:tag" content="Technology">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://preetambalijepalli.files.wordpress.com/2010/02/hs.jpg?w=150">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>EAI vs ESB vs SOA</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&text=EAI vs ESB vs SOA"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&is_video=false&description=EAI vs ESB vs SOA"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=EAI vs ESB vs SOA&body=Check out this article: http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&name=EAI vs ESB vs SOA&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&t=EAI vs ESB vs SOA"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        EAI vs ESB vs SOA
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Preetam Balijepalli</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2010-02-23T01:14:25.000Z" itemprop="datePublished">2010-02-23</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/SOA/">SOA</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/Technology/" rel="tag">Technology</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p><strong><strong>INTRODUCTION</strong></strong></p>
+<p>This paper aims to bring clarity to terms EAI, ESB, SOA and provide a clear distinction. Also this paper would discuss architecture options available for enterprise integration and what these options are most suitable for. Finally this paper would address the discussions we have seen in various forums about whether EAI is going to be replaced by SOA or ESB.</p>
+<p><strong><strong>SOA</strong></strong></p>
+<p>Service oriented architecture is approach to have software resources in an enterprise available and discoverable on network as well defined services. Each service would achieve a predefined business objective and perform discrete units of work. The services are independent and do not depend on the context or state of the other services. They work within distributed systems architecture.</p>
+<p>Earlier SOA used COM or ORB based on CORBA specifications and recent SOA stress on web services using standard description (WSDL), discovery (UDDI) and messaging (SOAP).Service oriented architecture may or may not use web services but yes web services provide a simple way towards service oriented architecture albeit with the age old security and reliability limitations.</p>
+<p><strong><strong>EAI</strong></strong></p>
+<p>Enterprise application integration is a business need to make diverse applications in an enterprise including partner systems to communicate to each other to achieve a business objective in a seamless reliable fashion irrespective of platform and geographical location of these applications. It is a business need and business never dies it only evolves. I have seen people saying that EAI is a thing of past now SOA is here, it is just like saying “transportation is a thing of past now road is here”.</p>
+<p>EAI comprises of message acceptance, transformation, translation, routing, message delivery and business process management. Usually messages transportation is asynchronous but for a business need it can be synchronous as well. There are two basic architectures to achieve this, bus and hub/spoke architecture. Both of these can be used to develop services and then it also becomes service orientated architecture.</p>
+<p><div><strong><strong> </strong></strong></div><br><strong><strong> </strong></strong></p>
+<p><strong><strong> </strong></strong></p>
+<p>[caption id=”attachment_167” align=”alignleft” width=”150” caption=”HUB/SPOKE”]<a href="http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/hs/"><img src="http://preetambalijepalli.files.wordpress.com/2010/02/hs.jpg?w=150" alt="HUB/SPOKE" title="HS"></a>[/caption]</p>
+<p><strong>HUB/SPOKE</strong></p>
+<p>Hub/Spoke architecture uses a centralized broker (Hub) and adapters (Spoke) which connect applications to Hub. Spoke connect to application and convert application data format to a format which Hub understands and vice versa. Hub on the other hand brokers all messages and takes care of content transformation/translation of the incoming message into a format the destination system understands and routing the message. Adapters take data from source application and publish messages to the message broker, which, in turn, does t_ransformation/translation/routing and passes messages to subscribing adapter_ which sends it to destination application(s). Having a single Hub makes system with this architecture easy to manage but scalability takes a hit. At some point of time as number of messages increase, scalability gets dependent on hardware. Having a bigger box to scale application has never been an ideal solution so to overcome this limitation most vendors have incorporated the concept of federated hub and spoke architecture in which multiple hubs can be present; each hub would have local metadata and rules as well as global metadata. Changes to global rules and metadata are automatically propagated to other EAI vs. SOA vs. ESB hubs. Federated hub spoke architecture alleviates scalability issue while central management of multiple hubs makes this architecture easy to manage and brings down support cost.</p>
+<hr>
+<hr>
+<p>[caption id=”attachment_170” align=”alignleft” width=”150” caption=”Bus”]<a href="http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/bus/"><img src="http://preetambalijepalli.files.wordpress.com/2010/02/bus.jpg?w=150" alt="Bus" title="Bus"></a>[/caption]</p>
+<p><strong>BUS</strong></p>
+<p>Bus architecture uses a central messaging backbone (bus) for message propagation. Applications would publish messages to bus using adapters. These messages would flow to subscribing applications using message bus. Subscribing applications will have adapters which would take message from bus and transform the message into a format required for the application. Key difference between hub/spoke and bus topology is that for the bus architecture, the integration engine that performs message transformation and routing is distributed in the application adapters and bus architecture requires an application adapter to run on the same platform as the original applications. Since adapters have integration engine and run on same platform on which source and target applications run, this scales much better and is complex to maintain compared to hub/spoke topology.</p>
+<p><strong>ESB:</strong>Enterprise service bus is an infrastructure to facilitate SOA. It gives API which can be used to develop services and makes services interact with each other reliably. Technically ESB is a messaging backbone which does protocol conversion, message format transformation, routing, accept and deliver messages from various services and application which are linked to ESB.Current EAI landscape is seeing many vendors who offer enterprise service bus and claim it to be a brand new concept. This brings a question on what exactly is the difference between ESB and the bus based implementations which have been there in market for quite a long time now. Actually there is not much difference between ESB and proprietary buses except for a few subtle ones. Main difference between ESB and proprietary bus implementation is of cost which is significantly low for ESB. Reason for this cost difference is twofold, first proprietary bus offers lot of built in functionalities as a suit of product which need to be developed for ESB implementations based on business requirement, second most proprietary buses use some proprietary formats to enhance the performance and that increases the cost. ESB on the other hand is usually standard based, so it is a tradeoff between performance and cost between proprietary bus and ESB. Main advantage of ESB is that it costs much less then hub/spoke or bus based product suits and that it is standard based.</p>
+<p><strong>CONCLUSION</strong></p>
+<p>Following table give a quick comparison of hub/spoke, bus based product suits and ESB. Also all these three architectures can be service oriented depending on implementation which is reflected in this comparison.</p>
+<p><table style="width:575px;height:383px;" border="1" width="575"></p>
+<p><tbody></p>
+<p><tr></p>
+<p><td></p>
+<p><table style="width:559px;height:305px;" border="1" width="559"></p>
+<p><tbody></p>
+<p><tr></p>
+<p><td><strong>Evaluation Bus Architecture</strong></td></p>
+<p><td><strong>Hub Architecture</strong></td></p>
+<p><td colspan="2"><strong>Evaluation Bus Architecture</strong></td><br></tr></p>
+<p><tr></p>
+<p><td><strong>
+</strong></td></p>
+<p><td></td></p>
+<p><td><strong>Proprietary bus based product suit</strong></td></p>
+<p><td><strong>ESB</strong></td><br></tr></p>
+<p><tr></p>
+<p><td><strong>Installation Effort</strong></td></p>
+<p><td>Less installation effort compared to solutions with bus architecture</td></p>
+<p><td>Moderate</td></p>
+<p><td>Moderate</td><br></tr></p>
+<p><tr></p>
+<p><td><strong>Administration</strong></td></p>
+<p><td>Easy to maintain because of central HUB</td></p>
+<p><td>Complex Administration depending on integration</td></p>
+<p><td>Complex Administration depending on integration</td><br></tr></p>
+<p><tr></p>
+<p><td><strong>Cost</strong></td></p>
+<p><td>High</td></p>
+<p><td>High</td></p>
+<p><td>Low</td><br></tr></p>
+<p><tr></p>
+<p><td><strong>Scalability</strong></td></p>
+<p><td>Moderate</td></p>
+<p><td>High</td></p>
+<p><td>High</td><br></tr></p>
+<p><tr></p>
+<p><td><strong>Standards</strong></td></p>
+<p><td>Mostly standard basedbut may useproprietary internal formats</td></p>
+<p><td>Mostly standard basedbut may useproprietary internal formats</td></p>
+<p><td>Standard Based</td><br></tr></p>
+<p><tr></p>
+<p><td><strong>SOA</strong></td></p>
+<p><td>Can be Implemented as SOA</td></p>
+<p><td></td></p>
+<p><td>SOA</td><br></tr><br></tbody><br></table><br></td><br></tr><br></tbody><br></table><br>SOA brings cost effective, reusable and low lead time solutions to an organization but EAI and SOA are both going to coexist. Web services alone as SOA can not handle the complex,secure and SLA based applications of an enterprise currently and unless we see a technological break through it is going to remain that way.Enterprise service bus would enable low cost integration and would be used by companies with limited IT resources and environments that involve a handful of systems and moderate transaction volumes. Packaged EAI solutions would have SOA as basic tenet and would continue to be used for large scale integration by companies having huge number of diverse system and high transaction volumes. Next generation EAI solutions would use more and more of SOA to provide reliable, secure, low cost and flexible solutions.</p>
+<p><strong>TAKEAWAYS SUMMARY</strong></p>
+<ul>
+<li>SOA brings cost effective, reusable and low lead time solutions to an organization but EAI and SOA are both going to coexist.</li>
+<li>SOA is more than web services, in fact web services alone cannot handle the complex, secure and SLA based applications of an enterprise.</li>
+<li>Enterprise service bus would enable low cost integration and would be used by companies with limited IT resources</li>
+<li>Packaged EAI solutions in future would have SOA as basic tenet and would continue to be the prime choice for large scale integration.<br><strong><em>From an Article published on internet</em></strong></li>
+</ul>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&text=EAI vs ESB vs SOA"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&is_video=false&description=EAI vs ESB vs SOA"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=EAI vs ESB vs SOA&body=Check out this article: http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&title=EAI vs ESB vs SOA"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&name=EAI vs ESB vs SOA&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://balijepalli.com/2010/02/23/eai-vs-esb-vs-soa/&t=EAI vs ESB vs SOA"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    Preetam Balijepalli
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
