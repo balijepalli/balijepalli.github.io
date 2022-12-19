@@ -1,47 +1,366 @@
-{% extends '_layout.swig' %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!doctype html>
+<html class="theme-next use-motion ">
+<head>
+  
 
-{% block title %}
-  {% set page_title_suffix = ' | ' + config.title %}
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-  {% if page.type === "categories" %}
-    {{ __('title.category') + page_title_suffix }}
-  {% elif page.type === "tags" %}
-    {{ __('title.tag') + page_title_suffix }}
-  {% else %}
-    {{ page.title + page_title_suffix }}
-  {% endif %}
-{% endblock %}
 
-{% block content %}
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
+
+
+    <meta name="description" content="A tech geek's blog." />
+
+
+
+  <meta name="keywords" content="Technology,Thoughts,Innovation" />
+
+
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
+
+
+<meta name="description" content="More      than 10 years of experience in the IT industry with experience of working      in multiple geographies including India and USA,UK . Strong      background in a number of technology platfor">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About">
+<meta property="og:url" content="http://balijepalli.com/about/index-1.html">
+<meta property="og:site_name" content="Curiosity Of Agile Architect">
+<meta property="og:description" content="More      than 10 years of experience in the IT industry with experience of working      in multiple geographies including India and USA,UK . Strong      background in a number of technology platfor">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://a248.e.akamai.net/assets.github.com/img/edc6dae7a1079163caf7f17c60495bbb6d027c93/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67">
+<meta property="article:published_time" content="2009-10-12T11:30:47.000Z">
+<meta property="article:modified_time" content="2022-12-18T14:53:55.937Z">
+<meta property="article:author" content="Preetam Balijepalli">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://a248.e.akamai.net/assets.github.com/img/edc6dae7a1079163caf7f17c60495bbb6d027c93/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67">
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    sidebar: 'post'
+  };
+</script>
+
+  <title>
+  
+
+  
+    About | Curiosity Of Agile Architect
+  
+</title>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a target="_blank" rel="noopener" href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+  
+
+
+
+  <div class="container one-column ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand" rel="start">
+      <span class="logo">
+        <i class="icon-next-logo"></i>
+      </span>
+      <span class="site-title">Curiosity Of Agile Architect</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu ">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon icon-next-home"></i> <br />
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            <i class="menu-item-icon icon-next-about"></i> <br />
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            <i class="menu-item-icon icon-next-archives"></i> <br />
+            Archives
+          </a>
+        </li>
+      
+
+      
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content"> 
 
   <div id="posts" class="posts-expand">
-    {# tagcloud page support #}
-    {% if page.type === "tags" %}
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            {{ _p('counter.tag_cloud', site.tags.length) }}
-        </div>
-        <div class="tag-cloud-tags">
-          {{ tagcloud({min_font: 12, max_font: 30, amount: 200, color: true, start_color: '#ccc', end_color: '#111'}) }}
-        </div>
-      </div>
-    {% elif page.type === 'categories' %}
-      <div class="category-all-page">
-        <div class="category-all-title">
-            {{ _p('counter.categories', site.categories.length) }}
-        </div>
-        <div class="category-all">
-          {{ list_categories() }}
-        </div>
-      </div>
-    {% else %}
-      {{ page.content }}
-    {% endif %}
+    
+    
+      <p><a target="_blank" rel="noopener" href="http://github.com/you"><img src="https://a248.e.akamai.net/assets.github.com/img/edc6dae7a1079163caf7f17c60495bbb6d027c93/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub"></a></p>
+<ul>
+<li>More      than 10 years of experience in the IT industry with experience of working      in multiple geographies including India and USA,UK<a target="_blank" rel="noopener" href="http://in.linkedin.com/pub/preetam-balijepalli-certified-scrum-master/2/102/b3a"> </a>.</li>
+<li>Strong      background in a number of technology platforms having played technical      lead,project management and architect roles, worked as Java architect in      various wall street client.</li>
+<li>More      than 7 years of experience in successfully leading, CMM level-5 software      development and implementation teams.</li>
+<li>Experience      of working in Onsite-WallStreet(USA) for 37 Months for various.</li>
+<li>Significant      experience in understanding business user requirements and managing their      expectations having worked closely with them.</li>
+<li>Strong experience in      managing globally leveraged onsite-offshore teams.</li>
+<li>Mentored      resources with varied years of experience.</li>
+<li>Experience independently leading complex projects involving global project teams.</li>
+<li>Experience utilizing Project Management tools to plan execute &amp; control projects.</li>
+<li>Experience in project coordination, planning, scoping, budgeting, scheduling, controlling &amp; tracking projects.</li>
+<li>Ability to quickly learn new subject areas in order to clearly identify dependencies, issues &amp; risks.</li>
+<li>Ability to resolve project issues &amp; risks in a complex environment through technical analysis &amp; cross-functional collaboration.*   Excellent verbal communication &amp; presentation skills in a technical environment .</li>
+<li>Strong      background in a number of technology platforms having played technical lead and architect roles</li>
+<li>Establishing organizational change management concepts &amp; practices.</li>
+<li><p>Acquainted with Agile and RUP methodologies ,As an Agile Coach involved in:</p>
+<ul>
+<li>Mentoring       the team on Pair Programming</li>
+<li>Mentoring       the team on SCRUM</li>
+<li>Behavior,       Domain Driven Development, Refactoring with patterns thru out all       projects<br>Worked on:</li>
+</ul>
+</li>
+<li><p>Building      and maintaining Service Oriented Application.</p>
+</li>
+<li>Building      Portal products.</li>
+<li>Migration      of legacy frameworks and mainframe applications to J2EE.</li>
+<li>Modernization      of legacy application servers,servlet executors to latest version of      Websphere,Tomcat</li>
+<li>Java      Memory Management issues with the help of various Application Performance      Monitoring (APM) tools.</li>
+<li>Various      Open source frameworks of apache</li>
+<li>Cache      frameworks and building seamless integration framework into existing      application.</li>
+<li>Defining      Garbage Collector policy.</li>
+<li>Contributed      to white papers on Open Source and JVM Crash issues (thread and heap      dump).<br><a target="_blank" rel="noopener" href="http://in.linkedin.com/pub/preetam-balijepalli-certified-scrum-master/2/102/b3a"></a></li>
+</ul>
+<div class="fb-like"></div>
+    
   </div>
 
-{% endblock %}
+ </div>
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
+        
+
+        
+          <div class="comments" id="comments">
+            
+          </div>
+        
+      </div>
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      <section class="site-overview">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="/images/default_avatar.jpg" alt="" itemprop="image"/>
+          <p class="site-author-name" itemprop="name"></p>
+        </div>
+        <p class="site-description motion-element" itemprop="description"></p>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            
+              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-name">categories</span>
+              
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            
+              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-name">tags</span>
+              
+          </div>
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner"> <div class="copyright" >
+  
+  &copy; &nbsp; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="icon-next-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Preetam Balijepalli</span>
+</div>
+
+<div class="powered-by">
+  Powered by <a class="theme-link" target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+ </div>
+    </footer>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+    
+    
+
+  
+
+
+  
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
+  
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
+
+
+
+
+  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+      if (isMobile()) {
+        FastClick.attach(document.body);
+      }
+    });
+  </script>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "/images/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
+</body>
+</html>
