@@ -90,7 +90,11 @@ menu_icons:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: cactus
+theme_config:
+  colorscheme: light
+# themes/cactus/_config.yml
+colorscheme: dark
 
 since: 2010
 
