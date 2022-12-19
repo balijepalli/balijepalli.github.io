@@ -77,6 +77,9 @@ colorscheme: dark
 projects_url: http://github.com/balijepalli
 
 
+# Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
+direction: ltr
+
 # Configure the navigation menu.
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
@@ -90,6 +93,10 @@ nav:
   projects: http://github.com/balijepalli
   LINK_NAME: URL
 
+# Customize the overview with displaying a tagcloud on the index page.
+# Options: https://hexo.io/docs/helpers.html#tagcloud
+tags_overview: false
+
 # Customize the 404 page
 # Options:
 #   - enabled: whether to enable the 404 page (404.html).
@@ -98,10 +105,7 @@ error_404:
   title: "404 Page Not Found"
   description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
 
-
 since: 2010
-
-
 
 # avatar
 avatar: /images/me.jpg
