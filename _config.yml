@@ -208,6 +208,9 @@ disqus:
   enable: true
   shortname: preetambalijepalli
 
+clean_css:
+  exclude:
+    - '*.min.css'
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:
@@ -227,6 +230,8 @@ deploy:
   type: git
   repo: git@github.com:balijepalli/balijepalli.github.io.git
   branch: master
+  name: balijepalli
+  email: preetam.balijepalli@gmail.com
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 tag_generator:
