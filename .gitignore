@@ -7,3 +7,5 @@ public/
 .deploy*/
 balijepalli
 balijepalli.pub
+*.xml
+*.iml
