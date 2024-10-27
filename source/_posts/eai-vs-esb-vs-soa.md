@@ -1,4 +1,4 @@
-title: "EAI Vs ESB Vs\_SOA"
+title: "Enterprise Integration Architecture: EAI vs ESB vs SOA - A Modern Perspective
 tags:
   - Technology
 id: 152
