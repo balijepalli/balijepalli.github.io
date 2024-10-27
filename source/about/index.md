@@ -3,28 +3,51 @@ layout: page
 title: About me
 ---
 
-## Experience
-Data and technical professional with an entrepreneurial mindset and 22+ years of diverse experience ranging from data analytics, engineering to product management. Having cross-cultural experience at customer sites in the US, EU, and India in
+### Senior Technology Leader & Data Innovation Strategist
 
-- Augmented Retail Analytics(1+ year)
-- Ag Tech (3+ years)
-- BFSI (10+ years)
-- Smart Mobility (4 year)
-- Location Intelligence(3+ years)
+A data and technical professional with an entrepreneurial mindset and 24+ years of diverse experience spanning data analytics, engineering, and product management. Combining strategic vision with hands-on technical expertise to drive digital transformation and technological excellence across global markets.
 
+## Professional Experience
 
-- Polyglot developer mainly working with Java, Scala and Python
+Currently serving as CTO, leading technological innovation across multiple domains:
+
+### Industry Expertise
+- **BFSI**: 10+ years transforming financial services through data-driven solutions
+- **Smart Mobility**: 4 years developing intelligent transportation systems
+- **Ag Tech**: 3+ years revolutionizing agricultural technology
+- **Location Intelligence**: 3+ years building spatial analytics platforms
+- **Augmented Retail Analytics**: 1+ year enhancing retail decision-making
+
+### Technical Leadership Achievements
+- Architected real-time data platforms processing 1M+ events/second
+- Established enterprise-wide MLOps practices reducing deployment time by 60%
+- Designed cloud-native architectures supporting 300+ microservices
+- Created digital twin platforms maintaining 99.9% reliability
+- Reduced data processing costs by 70% through optimized workflows
+- Improved predictive analytics accuracy by 83%
+- Implemented data mesh architecture improving accessibility by 85%
+
+### Technical Expertise
+- Polyglot developer specializing in Java, Scala, and Python
 - Cloud & Container technology enthusiast and advocate
-- Passionate about clean code practices
-- Expertise in solution ideation and rapid prototyping 
-- Love Bicycles, Circular Economy, Green Growth and Gardening
+- Clean code practices champion
+- Solution ideation and rapid prototyping expert
 
-## Recent Publications
+### Global Leadership
+- Led cross-functional teams across US, EU, and India markets
+- Built and mentored high-performance engineering teams of 40+ members
+- Established successful data governance frameworks
+- Fostered culture of innovation and continuous learning
 
+## Personal Interests
+Passionate about sustainable technology and green innovation, including:
+- Bicycle advocacy
+- Circular Economy initiatives
+- Green Growth strategies
+- Urban Gardening
 
-## Academic Services
-
-*
-*
-
-[12]: #
+## Contact Information
+- 📱 +91-8007999833
+- 📧 preetam.balijepalli@gmail.com
+- 🔗 www.linkedin.com/in/preetambalijepalli
+- 🌐 www.balijepalli.com
