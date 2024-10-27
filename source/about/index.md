@@ -17,10 +17,11 @@ Currently serving as CTO, leading technological innovation across multiple domai
 - **Ag Tech**: 3+ years revolutionizing agricultural technology
 - **Location Intelligence**: 3+ years building spatial analytics platforms
 - **Augmented Retail Analytics**: 1+ year enhancing retail decision-making
+- **Energy Analytics** : 2+ year 
 
 ### Technical Leadership Achievements
 - Architected real-time data platforms processing 1M+ events/second
-- Established enterprise-wide MLOps practices reducing deployment time by 60%
+- Established enterprise-wide ML-Ops practices reducing deployment time by 60%
 - Designed cloud-native architectures supporting 300+ microservices
 - Created digital twin platforms maintaining 99.9% reliability
 - Reduced data processing costs by 70% through optimized workflows
@@ -35,7 +36,7 @@ Currently serving as CTO, leading technological innovation across multiple domai
 
 ### Global Leadership
 - Led cross-functional teams across US, EU, and India markets
-- Built and mentored high-performance engineering teams of 40+ members
+- Built and mentored high-performance engineering teams
 - Established successful data governance frameworks
 - Fostered culture of innovation and continuous learning
 
