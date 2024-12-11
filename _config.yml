@@ -233,7 +233,7 @@ deploy:
   branch: master
   name: balijepalli
   email: preetam.balijepalli@gmail.com
-  message: "Site updated: {{ moment().format('YYYY-MM-DD HH:mm:ss') }}"
+  message: "Site updated" 
 
 tag_generator:
   per_page: 10
