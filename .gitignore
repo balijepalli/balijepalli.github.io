@@ -8,13 +8,8 @@ public/
 balijepalli
 balijepalli.pub
 .idea/balijepalli.github.io.iml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/inspectionProfiles/Project_Default.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
+*.xml
 .obsidian/
-source/about/index.md
 Win Blog/
 Mac Blog
 *.css
