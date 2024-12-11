@@ -111,3 +111,6 @@ Win Blog/vulkan-1.dll
 .obsidian/core-plugins-migration.json
 .obsidian/hotkeys.json
 Mac Blog
+*.css
+*.json
+*.js
