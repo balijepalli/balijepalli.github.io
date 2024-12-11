@@ -123,10 +123,11 @@ social_links:
   github: https://github.com/balijepalli
   twitter: https://twitter.com/balijepalli
   facebook: https://facebook.com/preetam.balijepalli
-  linkedIn: https://www.linkedin.com/profile/in/preetambalijepalli
+  linkedin: https://www.linkedin.com/profile/in/preetambalijepalli
   stackoverflow: http://stackoverflow.com/users/3300540/preetam-balijepalli
   mail: mailto:preetam.balijepalli@gmail.com
-  NAME: your-NAME-url
+
+
 
 # Social Links Icons
 # Icon Mapping:
@@ -232,7 +233,7 @@ deploy:
   branch: master
   name: balijepalli
   email: preetam.balijepalli@gmail.com
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "Site updated: {{ moment().format('YYYY-MM-DD HH:mm:ss') }}"
 
 tag_generator:
   per_page: 10
