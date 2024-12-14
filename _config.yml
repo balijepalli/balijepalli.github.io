@@ -7,8 +7,8 @@
 ##############################################################################
 
 # Site
-title: Curiosity Of Agile Architect
-subtitle: It doesn’t matter if you are A LION OR A GAZELLE. When the Sun comes Up, You BETTER be RUNNING. !!
+title: Curiosity Of Software Craftsman
+subtitle: "It doesn't matter if you are A LION OR A GAZELLE. When the Sun comes Up, You BETTER be RUNNING!"
 description: A tech geek's blog.
 author: Preetam Balijepalli
 language: en
@@ -85,6 +85,12 @@ error_404:
 ## Themes: http://hexo.io/themes/
 theme: cactus
 
+plugins:
+  - hexo-tag-bootstrap
+  - hexo-tag-mermaid
+  - hexo-tag-tabs
+
+
 # Customize the logo (i.e., the cactus) in the header.
 # Options:
 #   - enabled: whether to show (true) or hide (false) the logo.
@@ -103,6 +109,50 @@ logo:
 
 theme_config:
   colorscheme: light
+  ##############################################################################
+  # Social Links
+  ##############################################################################
+
+  # social links - cactus theme
+  # Links to your social media accounts.
+  # The keys should correspond to Fontawesome icon names
+  # (see https://fontawesome.com/icons?d=gallery&s=brands);
+  # only 'mail' is an exception.
+  social_links:
+    -
+      icon: github
+      link: https://github.com/balijepalli
+    -
+      icon: twitter
+      link: https://twitter.com/balijepalli
+    -
+      icon: facebook
+      link: https://facebook.com/preetam.balijepalli
+    -
+      icon: linkedin
+      link: https://www.linkedin.com/profile/in/preetambalijepalli
+    -
+      icon: stackoverflow
+      link: http://stackoverflow.com/users/3300540/preetam-balijepalli
+    -
+      icon: mail
+      link: mailto:preetam.balijepalli@gmail.com
+  # Social Links Icons
+  # Icon Mapping:
+  #   Map a menu item to a specific FontAwesome icon name.
+  #   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
+  #   When an globe mask icon presenting up means that the item has no mapping icon.
+  social_icons:
+    enable: true
+    # Icon Mappings.
+    # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+    GitHub: github
+    StackOverflow : stack-overflow
+    Twitter: twitter
+    Facebook: facebook
+    LinkedIn: linkedin
+    Mail: envelope-o
+    
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -110,41 +160,6 @@ page_width: 48
 # avatar
 avatar: /images/me.jpg
 
-##############################################################################
-# Social Links
-##############################################################################
-
-# social links - cactus theme
-# Links to your social media accounts.
-# The keys should correspond to Fontawesome icon names
-# (see https://fontawesome.com/icons?d=gallery&s=brands);
-# only 'mail' is an exception.
-social_links:
-  github: https://github.com/balijepalli
-  twitter: https://twitter.com/balijepalli
-  facebook: https://facebook.com/preetam.balijepalli
-  linkedin: https://www.linkedin.com/profile/in/preetambalijepalli
-  stackoverflow: http://stackoverflow.com/users/3300540/preetam-balijepalli
-  mail: mailto:preetam.balijepalli@gmail.com
-
-
-
-# Social Links Icons
-# Icon Mapping:
-#   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
-#   When an globe mask icon presenting up means that the item has no mapping icon.
-social_icons:
-  enable: true
-  # Icon Mappings.
-  # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  StackOverflow : stack-overflow
-  Twitter: twitter
-  Facebook: facebook
-  LinkedIn: linkedin
-  GooglePlus: google-plus
-  Mail: envelope-o
 
 ##############################################################################
 # Miscellaneous
