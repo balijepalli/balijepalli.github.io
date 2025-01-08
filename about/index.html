@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content=".terminal-window {   background-color: #1d1f27;   border-radius: 6px;   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);   margin: 20px auto;   max-width: 1024px;   font-family: &#39;Menlo&#39;, &#39;Monaco&#39;, &#39;Couri">
+    <meta name="description" content=":root {   --text-primary: #2c3e50;   --text-secondary: #34495e;   --accent: #3498db;   --background: #ffffff;   --divider: #ecf0f1;   --space-xs: 0.5rem;   --space-sm: 1rem;   --space-md: 2rem;   --s">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About Me">
 <meta property="og:url" content="http://balijepalli.com/about/index.html">
 <meta property="og:site_name" content="Curiosity Of Software Craftsman">
-<meta property="og:description" content=".terminal-window {   background-color: #1d1f27;   border-radius: 6px;   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);   margin: 20px auto;   max-width: 1024px;   font-family: &#39;Menlo&#39;, &#39;Monaco&#39;, &#39;Couri">
+<meta property="og:description" content=":root {   --text-primary: #2c3e50;   --text-secondary: #34495e;   --accent: #3498db;   --background: #ffffff;   --divider: #ecf0f1;   --space-xs: 0.5rem;   --space-sm: 1rem;   --space-md: 2rem;   --s">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-01-08T12:12:49.095Z">
-<meta property="article:modified_time" content="2025-01-08T12:12:49.095Z">
+<meta property="article:published_time" content="2025-01-08T13:13:51.128Z">
+<meta property="article:modified_time" content="2025-01-08T13:13:51.128Z">
 <meta property="article:author" content="Preetam Balijepalli">
 <meta name="twitter:card" content="summary">
     
@@ -95,188 +95,184 @@
   <div class="content" itemprop="articleBody">
       
           <style>
-.terminal-window {
-  background-color: #1d1f27;
-  border-radius: 6px;
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);
-  margin: 20px auto;
-  max-width: 1024px;
-  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+:root {
+  --text-primary: #2c3e50;
+  --text-secondary: #34495e;
+  --accent: #3498db;
+  --background: #ffffff;
+  --divider: #ecf0f1;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
 }
 
-.terminal-header {
-  background-color: #282c34;
-  border-radius: 6px 6px 0 0;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background: var(--background);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-md);
 }
 
-.terminal-buttons {
-  display: flex;
-  gap: 8px;
+.header {
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--divider);
 }
 
-.terminal-button {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  opacity: 0.8;
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
 }
 
-.terminal-button.red { background-color: #bc5858; }
-.terminal-button.yellow { background-color: #d1a356; }
-.terminal-button.green { background-color: #5b9e47; }
-
-.terminal-title {
-  color: #7f8490;
-  font-size: 14px;
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  max-width: 600px;
 }
 
-.terminal-content {
-  padding: 20px;
-  color: #c7cad1;
-  line-height: 1.6;
-}
-
-.command-line {
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.command-prompt {
-  color: #7b9dc7;
-  margin-right: 8px;
-}
-
-.command-text {
-  color: #a393c1;
-}
-
-.output-block {
-  margin-left: 24px;
-  margin-bottom: 24px;
-  color: #a0a4ae;
+.section {
+  margin-bottom: var(--space-lg);
 }
 
 .section-title {
-  color: #c4a587;
-  font-weight: bold;
-  margin-bottom: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+  color: var(--text-primary);
 }
 
-.grid-container {
+.grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
 }
 
-.highlight-text {
-  color: #8fb573;
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+.list li {
+  margin-bottom: var(--space-sm);
+  padding-left: var(--space-sm);
+  position: relative;
 }
 
-.cursor {
-  display: inline-block;
-  width: 8px;
-  height: 16px;
-  background-color: #a393c1;
-  animation: blink 1s infinite;
-  margin-left: 4px;
+.list li::before {
+  content: "—";
+  position: absolute;
+  left: -20px;
+  color: var(--accent);
 }
 
-/* Custom list styling */
-.custom-list {
-  list-style-type: none;
-  padding-left: 0;
+.project {
+  margin-bottom: var(--space-md);
 }
 
-.custom-list li {
-  color: #a0a4ae;
-  margin-bottom: 4px;
+.project-title {
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
 }
 
-.custom-list li:before {
-  content: "•";
-  color: #7b9dc7;
-  margin-right: 8px;
+.project-description {
+  color: var(--text-secondary);
 }
 
-/* Subdued welcome message */
-.welcome-msg {
-  color: #7f8490;
-  font-style: italic;
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.contact a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.contact a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
 }
 </style>
 
-<div class="terminal-window">
-  <div class="terminal-header">
-    <div class="terminal-buttons">
-      <div class="terminal-button red"></div>
-      <div class="terminal-button yellow"></div>
-      <div class="terminal-button green"></div>
+<div class="header">
+  <h1 class="title">Technology Leader & Enterprise Architect</h1>
+  <p class="subtitle">24+ years of experience driving digital transformation through data analytics, engineering, and product management.</p>
+</div>
+
+<div class="section">
+  <h2 class="section-title">Core Expertise</h2>
+  <div class="grid">
+    <div>
+      <h3>Domain Knowledge</h3>
+      <ul class="list">
+        <li>BFSI (Banking, Financial Services, Insurance)</li>
+        <li>Smart Mobility & Location Intelligence</li>
+        <li>Agricultural Technology</li>
+        <li>Retail & PV Analytics</li>
+        <li>Enterprise Data Platforms</li>
+      </ul>
     </div>
-    <div class="terminal-title">portfolio.sh</div>
-    <div style="width:48px"></div>
+    <div>
+      <h3>Technical Leadership</h3>
+      <ul class="list">
+        <li>Enterprise Data & AI Architecture</li>
+        <li>Cloud-Native Solutions & MLOps</li>
+        <li>Digital Transformation</li>
+        <li>Data Mesh & Data Products</li>
+        <li>Enterprise Architecture & System Design</li>
+      </ul>
+    </div>
   </div>
+</div>
 
-  <div class="terminal-content">
-    <div class="command-line">
-      <span class="command-prompt">></span>
-      <span class="command-text">welcome</span>
-    </div>
-    <div class="output-block welcome-msg">
-      Type 'help' to see available commands
-    </div>
+<div class="section">
+  <h2 class="section-title">Key Projects</h2>
+  <div class="project">
+    <div class="project-title">Digital Twin Platform</div>
+    <div class="project-description">Led development of IoT-enabled solution reducing maintenance costs by 40%</div>
+  </div>
+  <div class="project">
+    <div class="project-title">Smart Banking Platform</div>
+    <div class="project-description">Architected real-time fraud detection system processing $10B+ transactions annually</div>
+  </div>
+  <div class="project">
+    <div class="project-title">Agricultural Analytics</div>
+    <div class="project-description">Developed predictive yield optimization platform improving crop yields by 25%</div>
+  </div>
+  <div class="project">
+    <div class="project-title">Location Intelligence</div>
+    <div class="project-description">Built spatial analytics platform supporting 10M+ daily API calls</div>
+  </div>
+</div>
 
-<pre><code>&lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;&gt;&lt;/span&gt;
-  &lt;span class=&quot;command-text&quot;&gt;profile&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;output-block&quot;&gt;
-  &lt;div class=&quot;highlight-text&quot;&gt;👨‍💻 Technology Leader &amp; Enterprise Architect | Data &amp; AI Leader&lt;/div&gt;
-  &lt;div&gt;Innovative technology leader with 24+ years of experience spearheading digital transformation through data analytics, engineering, and product management.&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;&gt;&lt;/span&gt;
-  &lt;span class=&quot;command-text&quot;&gt;expertise&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;output-block&quot;&gt;
-  &lt;div class=&quot;grid-container&quot;&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;section-title&quot;&gt;Domain Knowledge&lt;/div&gt;
-      &lt;ul class=&quot;custom-list&quot;&gt;
-        &lt;li&gt;BFSI (Banking, Financial Services)&lt;/li&gt;
-        &lt;li&gt;Smart Mobility &amp; Location Intelligence&lt;/li&gt;
-        &lt;li&gt;Agricultural Technology&lt;/li&gt;
-        &lt;li&gt;Enterprise Data Platforms&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;div class=&quot;section-title&quot;&gt;Technical Leadership&lt;/div&gt;
-      &lt;ul class=&quot;custom-list&quot;&gt;
-        &lt;li&gt;Enterprise Data &amp; AI Architecture&lt;/li&gt;
-        &lt;li&gt;Cloud-Native Solutions &amp; MLOps&lt;/li&gt;
-        &lt;li&gt;Digital Transformation&lt;/li&gt;
-        &lt;li&gt;Security &amp; Compliance&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;&gt;&lt;/span&gt;
-  &lt;span class=&quot;command-text&quot;&gt;portfolio&lt;/span&gt;
-  &lt;span class=&quot;cursor&quot;&gt;&lt;/span&gt;
-&lt;/div&gt;
-</code></pre>
+<div class="section">
+  <h2 class="section-title">Contact</h2>
+  <div class="contact">
+    <a href="mailto:preetam.balijepalli@gmail.com">preetam.balijepalli@gmail.com</a>
+    <a href="https://www.linkedin.com/in/preetambalijepalli" target="_blank">LinkedIn</a>
+    <a href="http://www.balijepalli.com" target="_blank">Website</a>
+    <a href="http://www.balijepalli.com/blog" target="_blank">Blog</a>
   </div>
 </div>
         
