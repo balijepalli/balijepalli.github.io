@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content=".terminal-window {   background-color: #1a1b26;   border-radius: 10px;   box-shadow: 0 20px 68px rgba(0, 0, 0, 0.55);   margin: 20px auto;   max-width: 1024px;   font-family: &#39;Menlo&#39;, &#39;Monaco&#39;, &#39;Cour">
+    <meta name="description" content=".terminal-window {   background-color: #1d1f27;   border-radius: 6px;   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);   margin: 20px auto;   max-width: 1024px;   font-family: &#39;Menlo&#39;, &#39;Monaco&#39;, &#39;Couri">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About Me">
 <meta property="og:url" content="http://balijepalli.com/about/index.html">
 <meta property="og:site_name" content="Curiosity Of Software Craftsman">
-<meta property="og:description" content=".terminal-window {   background-color: #1a1b26;   border-radius: 10px;   box-shadow: 0 20px 68px rgba(0, 0, 0, 0.55);   margin: 20px auto;   max-width: 1024px;   font-family: &#39;Menlo&#39;, &#39;Monaco&#39;, &#39;Cour">
+<meta property="og:description" content=".terminal-window {   background-color: #1d1f27;   border-radius: 6px;   box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);   margin: 20px auto;   max-width: 1024px;   font-family: &#39;Menlo&#39;, &#39;Monaco&#39;, &#39;Couri">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-01-08T12:07:54.804Z">
-<meta property="article:modified_time" content="2025-01-08T12:07:54.804Z">
+<meta property="article:published_time" content="2025-01-08T12:12:49.095Z">
+<meta property="article:modified_time" content="2025-01-08T12:12:49.095Z">
 <meta property="article:author" content="Preetam Balijepalli">
 <meta name="twitter:card" content="summary">
     
@@ -96,17 +96,17 @@
       
           <style>
 .terminal-window {
-  background-color: #1a1b26;
-  border-radius: 10px;
-  box-shadow: 0 20px 68px rgba(0, 0, 0, 0.55);
+  background-color: #1d1f27;
+  border-radius: 6px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);
   margin: 20px auto;
   max-width: 1024px;
   font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
 }
 
 .terminal-header {
-  background-color: #1f2937;
-  border-radius: 10px 10px 0 0;
+  background-color: #282c34;
+  border-radius: 6px 6px 0 0;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -122,20 +122,21 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  opacity: 0.8;
 }
 
-.terminal-button.red { background-color: #ff5f56; }
-.terminal-button.yellow { background-color: #ffbd2e; }
-.terminal-button.green { background-color: #27c93f; }
+.terminal-button.red { background-color: #bc5858; }
+.terminal-button.yellow { background-color: #d1a356; }
+.terminal-button.green { background-color: #5b9e47; }
 
 .terminal-title {
-  color: #6b7280;
+  color: #7f8490;
   font-size: 14px;
 }
 
 .terminal-content {
   padding: 20px;
-  color: #e5e7eb;
+  color: #c7cad1;
   line-height: 1.6;
 }
 
@@ -143,26 +144,25 @@
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-  color: #c084fc;
 }
 
 .command-prompt {
-  color: #60a5fa;
+  color: #7b9dc7;
   margin-right: 8px;
 }
 
 .command-text {
-  color: #c084fc;
+  color: #a393c1;
 }
 
 .output-block {
   margin-left: 24px;
   margin-bottom: 24px;
-  color: #9ca3af;
+  color: #a0a4ae;
 }
 
 .section-title {
-  color: #fbbf24;
+  color: #c4a587;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -171,6 +171,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.highlight-text {
+  color: #8fb573;
 }
 
 @keyframes blink {
@@ -182,9 +186,32 @@
   display: inline-block;
   width: 8px;
   height: 16px;
-  background-color: #c084fc;
+  background-color: #a393c1;
   animation: blink 1s infinite;
   margin-left: 4px;
+}
+
+/* Custom list styling */
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  color: #a0a4ae;
+  margin-bottom: 4px;
+}
+
+.custom-list li:before {
+  content: "•";
+  color: #7b9dc7;
+  margin-right: 8px;
+}
+
+/* Subdued welcome message */
+.welcome-msg {
+  color: #7f8490;
+  font-style: italic;
 }
 </style>
 
@@ -201,79 +228,51 @@
 
   <div class="terminal-content">
     <div class="command-line">
-      <span class="command-prompt">➜</span>
+      <span class="command-prompt">></span>
       <span class="command-text">welcome</span>
     </div>
-    <div class="output-block">
+    <div class="output-block welcome-msg">
       Type 'help' to see available commands
     </div>
 
 <pre><code>&lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;➜&lt;/span&gt;
+  &lt;span class=&quot;command-prompt&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;command-text&quot;&gt;profile&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;output-block&quot;&gt;
-  &lt;div style=&quot;font-weight:bold;color:#34d399&quot;&gt;👨‍💻 Technology Leader &amp; Enterprise Architect | Data &amp; AI Leader&lt;/div&gt;
+  &lt;div class=&quot;highlight-text&quot;&gt;👨‍💻 Technology Leader &amp; Enterprise Architect | Data &amp; AI Leader&lt;/div&gt;
   &lt;div&gt;Innovative technology leader with 24+ years of experience spearheading digital transformation through data analytics, engineering, and product management.&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;➜&lt;/span&gt;
+  &lt;span class=&quot;command-prompt&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;command-text&quot;&gt;expertise&lt;/span&gt;
 &lt;/div&gt;
 &lt;div class=&quot;output-block&quot;&gt;
   &lt;div class=&quot;grid-container&quot;&gt;
     &lt;div&gt;
       &lt;div class=&quot;section-title&quot;&gt;Domain Knowledge&lt;/div&gt;
-      &lt;ul style=&quot;list-style-type:none;padding-left:0&quot;&gt;
-        &lt;li&gt;• BFSI (Banking, Financial Services)&lt;/li&gt;
-        &lt;li&gt;• Smart Mobility &amp; Location Intelligence&lt;/li&gt;
-        &lt;li&gt;• Agricultural Technology&lt;/li&gt;
-        &lt;li&gt;• Enterprise Data Platforms&lt;/li&gt;
+      &lt;ul class=&quot;custom-list&quot;&gt;
+        &lt;li&gt;BFSI (Banking, Financial Services)&lt;/li&gt;
+        &lt;li&gt;Smart Mobility &amp; Location Intelligence&lt;/li&gt;
+        &lt;li&gt;Agricultural Technology&lt;/li&gt;
+        &lt;li&gt;Enterprise Data Platforms&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
     &lt;div&gt;
       &lt;div class=&quot;section-title&quot;&gt;Technical Leadership&lt;/div&gt;
-      &lt;ul style=&quot;list-style-type:none;padding-left:0&quot;&gt;
-        &lt;li&gt;• Enterprise Data &amp; AI Architecture&lt;/li&gt;
-        &lt;li&gt;• Cloud-Native Solutions &amp; MLOps&lt;/li&gt;
-        &lt;li&gt;• Digital Transformation&lt;/li&gt;
-        &lt;li&gt;• Security &amp; Compliance&lt;/li&gt;
+      &lt;ul class=&quot;custom-list&quot;&gt;
+        &lt;li&gt;Enterprise Data &amp; AI Architecture&lt;/li&gt;
+        &lt;li&gt;Cloud-Native Solutions &amp; MLOps&lt;/li&gt;
+        &lt;li&gt;Digital Transformation&lt;/li&gt;
+        &lt;li&gt;Security &amp; Compliance&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;➜&lt;/span&gt;
-  &lt;span class=&quot;command-text&quot;&gt;achievements&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;output-block&quot;&gt;
-  &lt;div class=&quot;section-title&quot;&gt;Key Projects&lt;/div&gt;
-  &lt;ul style=&quot;list-style-type:none;padding-left:0&quot;&gt;
-    &lt;li&gt;🚀 Digital Twin Platform: 40% maintenance cost reduction&lt;/li&gt;
-    &lt;li&gt;💰 Smart Banking: $10B+ transactions annually&lt;/li&gt;
-    &lt;li&gt;🌾 Agricultural Analytics: 25% yield improvement&lt;/li&gt;
-    &lt;li&gt;📍 Location Intelligence: 10M+ daily API calls&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;➜&lt;/span&gt;
-  &lt;span class=&quot;command-text&quot;&gt;contact&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class=&quot;output-block&quot;&gt;
-  &lt;ul style=&quot;list-style-type:none;padding-left:0&quot;&gt;
-    &lt;li&gt;📱 +91-8007999833&lt;/li&gt;
-    &lt;li&gt;📧 preetam.balijepalli@gmail.com&lt;/li&gt;
-    &lt;li&gt;🔗 linkedin.com/in/preetambalijepalli&lt;/li&gt;
-    &lt;li&gt;🌐 balijepalli.com&lt;/li&gt;
-    &lt;li&gt;📝 balijepalli.com/blog&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;command-line&quot;&gt;
-  &lt;span class=&quot;command-prompt&quot;&gt;➜&lt;/span&gt;
+  &lt;span class=&quot;command-prompt&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;command-text&quot;&gt;portfolio&lt;/span&gt;
   &lt;span class=&quot;cursor&quot;&gt;&lt;/span&gt;
 &lt;/div&gt;
