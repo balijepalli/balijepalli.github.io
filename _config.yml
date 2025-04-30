@@ -245,7 +245,7 @@ cdn:
 deploy:
   type: git
   repo: git@github.com:balijepalli/balijepalli.github.io.git
-  branch: master
+  branch: hexo-platform
   name: balijepalli
   email: preetam.balijepalli@gmail.com
   message: "Site updated" 
