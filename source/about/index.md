@@ -7,7 +7,7 @@ title: About Me
 
 Innovative technology leader with 24+ years of experience spearheading digital transformation through data analytics, engineering, and product management. Proven track record of architecting and scaling enterprise solutions across global markets, combining technical expertise with strategic business acumen to drive measurable impact.
 
-# 🔹 Core Expertis
+# 🔹 Core Expertise
 
 ### Domain Knowledge
 - BFSI (Banking, Financial Services, Insurance)
@@ -26,27 +26,27 @@ Innovative technology leader with 24+ years of experience spearheading digital t
 
 # 🎯 Key Achievements
 
-#### 🔄 Data Platform & Engineering Excellence
+## 🔄 Data Platform & Engineering Excellence
+
 | Area | Contribution & Impact |
-|:-----|:---------------------|
+|------|------------------------|
 | Data Processing | Designed scalable platforms enabling real-time event processing for enterprise operations |
 | Cost Optimization | Implemented efficient ETL workflows leading to significant operational cost reduction |
 | Data Architecture | Enhanced data accessibility through modern mesh architecture implementation |
 | Digital Solutions | Developed digital twin platform improving deployment efficiency |
 | Governance | Established comprehensive data lineage and governance frameworks |
 
-
-#### 🤖 ML/AI & Innovation Achievements
+## 🤖 ML/AI & Innovation Achievements
 - Streamlined ML operations to improve model deployment efficiency
 - Enhanced predictive analytics capabilities through feature engineering
 - Maintained high platform reliability during scale-up operations
 - Automated ML pipelines to improve development workflows
 - Implemented intelligent anomaly detection systems
 
-#### ⚡ Enterprise Architecture Experience
+## ⚡ Enterprise Architecture Experience
 
 | Area | Key Contributions |
-|:-----|:-----------------|
+|------|-------------------|
 | Microservices | • Designed scalable architecture for enterprise-level transaction processing |
 | Event-Driven Systems | • Implemented architecture patterns improving system responsiveness |
 | Development | • Built custom Spring Boot frameworks for accelerated development |
@@ -56,17 +56,17 @@ Innovative technology leader with 24+ years of experience spearheading digital t
 | Architecture Patterns | • Applied CQRS and Event Sourcing for complex domains |
 | Documentation | • Implemented ADR framework for architectural decisions |
 
-#### 🏗️ Technical Leadership
+## 🏗️ Technical Leadership
 
 | Domain | Contributions & Scope |
-|:-------|:---------------------|
+|--------|------------------------|
 | Platform Architecture | Led development of cloud-native solutions and microservices |
 | Data Management | Architected enterprise data lake for structured/unstructured data |
 | Team Leadership | Guided distributed engineering teams across global locations |
 | Governance | Developed and implemented enterprise-wide frameworks |
 | Mentorship | Supported career growth of engineering team members |
 
-System Architecture Overview:
+### System Architecture Overview:
 ```
 Enterprise Solutions
 ├── Cloud Platform
@@ -83,6 +83,7 @@ Enterprise Solutions
     └── Knowledge Sharing
 ```
 
+
 # 🚀 Innovation & Project Highlights
 - **Digital Twin Platform**: Led development of IoT-enabled digital twin solution reducing maintenance costs by 40%
 - **Smart Banking Platform**: Architected real-time fraud detection system processing $10B+ transactions annually
@@ -92,7 +93,7 @@ Enterprise Solutions
 # 💫 Professional Philosophy
 
 | Aspect | Approach |
-|:-------|:---------|
+|--------|----------|
 | Strategic Vision | Bridging technology and business opportunities |
 | Global Perspective | Leveraging cross-cultural insights for solution design |
 | Innovation | Creating impactful solutions through emerging technologies |
@@ -102,7 +103,7 @@ Enterprise Solutions
 # 🛠️ Methodology Framework
 
 | Framework | Application Areas |
-|-----------|------------------|
+|-----------|-------------------|
 | ATAM | Architecture Evaluation |
 | TOGAF | Enterprise Architecture |
 | Zero Trust | Security Implementation |
@@ -121,4 +122,6 @@ Enterprise Solutions
 - 🌐 [Website](http://www.balijepalli.com)
 - 📝 [Tech Blog](http://www.balijepalli.com/blog)
 
-#DataEngineering #CloudArchitecture #DataScience #MLOps #DigitalTransformation #AI #EnterpriseArchitecture
+---
+
+`#DataEngineering` `#CloudArchitecture` `#DataScience` `#MLOps` `#DigitalTransformation` `#AI` `#EnterpriseArchitecture`
