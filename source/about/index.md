@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-# 👨‍💻 Hands-on Technology Leader & Enterprise Architect | Data & AI Leader
+# Hands-on Technology Leader & Enterprise Architect | Data & AI Leader
 
 Innovative technology leader with 24+ years of experience spearheading digital transformation through data analytics, engineering, and product management. Proven track record of architecting and scaling enterprise solutions across global markets, combining technical expertise with strategic business acumen to drive measurable impact.
 
@@ -116,7 +116,6 @@ Enterprise Solutions
 - Led carbon footprint reduction initiatives in tech operations
 
 # 📫 Contact Information
-- 📱 +91-8007999833
 - 📧 [preetam.balijepalli@gmail.com](mailto:preetam.balijepalli@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/preetambalijepalli)
 - 🌐 [Website](http://www.balijepalli.com)
