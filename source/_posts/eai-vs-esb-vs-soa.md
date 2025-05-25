@@ -8,6 +8,14 @@ categories:
   - technology
 ---
 
+> **Note:** This article has been restructured into a comprehensive 5-part series for better focus and readability. Please refer to the new series:
+>
+> 1. [Part 1: Overview and Evolution](/2025/05/01/enterprise-integration-part1-overview/)
+> 2. [Part 2: Enterprise Application Integration (EAI)](/2025/05/08/enterprise-integration-part2-eai/)
+> 3. [Part 3: Enterprise Service Bus (ESB)](/2025/05/15/enterprise-integration-part3-esb/)
+> 4. [Part 4: Service-Oriented Architecture (SOA)](/2025/05/22/enterprise-integration-part4-soa/)
+> 5. [Part 5: Choosing the Right Integration Approach](/2025/05/29/enterprise-integration-part5-choosing-approach/)
+
 ## Introduction
 Enterprise integration has evolved significantly over the years, with various architectural patterns emerging to solve different integration challenges. This article aims to clarify the distinctions between Enterprise Application Integration (EAI), Enterprise Service Bus (ESB), and Service-Oriented Architecture (SOA), while providing guidance on when to use each approach in modern enterprise environments.
 
@@ -19,15 +27,26 @@ SOA is an architectural paradigm that structures enterprise software resources a
 - Operates within distributed systems architecture
 
 ### Evolution of SOA
-1. **Traditional Implementation**
-   - Component Object Model (COM)
+
+![SOA Evolution Timeline](/images/posts/soa-evolution-timeline.svg)
+
+1. **Traditional Implementation (1990s)**
+   - Component Object Model (COM/DCOM)
    - Object Request Broker (ORB) based on CORBA
 
-2. **Modern Implementation**
-   - Web Services with WSDL, UDDI, and SOAP
-   - RESTful Services
+2. **Web Services Era (Early 2000s)**
+   - SOAP, WSDL, and UDDI standards
+   - XML-based messaging
+
+3. **Modern Implementation (2010s)**
+   - RESTful Services and JSON
+   - API Management platforms
+   - OAuth and modern security standards
+
+4. **Cloud-Native SOA (2020s)**
    - Microservices Architecture
    - Event-Driven Architecture (EDA)
+   - Containerization and orchestration
 
 ## Enterprise Application Integration (EAI)
 EAI addresses the business need for seamless communication between diverse enterprise applications, regardless of platform or location. It encompasses:
@@ -262,8 +281,22 @@ This layered approach allowed them to:
 - Accelerate innovation in customer-facing services
 - Meet regulatory requirements while enabling new capabilities
 
+## Note on Content Structure
+
+This comprehensive article has been restructured into a 5-part series to provide better focus on each integration approach and improve readability. The new series follows this structure:
+
+1. **Part 1: Overview and Evolution** - Introduction to integration approaches and their evolution
+2. **Part 2: Enterprise Application Integration (EAI)** - Deep dive into Hub/Spoke and Bus architectures
+3. **Part 3: Enterprise Service Bus (ESB)** - Key features, implementation patterns, and modern relevance
+4. **Part 4: Service-Oriented Architecture (SOA)** - Principles, implementation, and relationship to microservices
+5. **Part 5: Choosing the Right Integration Approach** - Decision frameworks and migration strategies
+
+Each article in the series provides focused content with proper structure, visuals, modern relevance, interactive elements, and actionable guidance.
+
 ## Conclusion
 
 While SOA has become the dominant paradigm for modern enterprise architecture, both EAI and ESB continue to play crucial roles in enterprise integration. The future of enterprise integration lies in hybrid approaches that combine the best aspects of each architecture to meet specific business needs while maintaining flexibility and scalability.
 
 Organizations should view these architectures not as competing alternatives but as complementary tools in their integration toolkit. By understanding the strengths and limitations of each approach, architects can design integration solutions that leverage the right architecture for each integration scenario while maintaining a coherent overall strategy.
+
+For a more focused and comprehensive exploration of enterprise integration approaches, please refer to our new 5-part series linked at the top of this article.
