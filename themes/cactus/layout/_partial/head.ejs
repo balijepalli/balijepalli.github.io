@@ -65,6 +65,9 @@
     <% if (theme.rss) { %>
       <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml" />
     <% } %>
+    <link rel="alternate" href="<%= url_for('/atom.xml') %>" title="<%= config.title %> - Atom Feed" type="application/atom+xml" />
+    <link rel="alternate" href="<%= url_for('/feed.xml') %>" title="<%= config.title %> - RSS Feed" type="application/rss+xml" />
+    <meta name="description" content="<%= config.description %>" />
 	<!-- mathjax -->
 	<% if (theme.mathjax.enabled) {%>
 		<script type="text/x-mathjax-config">

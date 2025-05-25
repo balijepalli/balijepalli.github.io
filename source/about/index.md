@@ -1,126 +1,30 @@
 ---
 layout: page
-title: About Me
+title: About
 ---
 
-# Hands-on Technology Leader & Enterprise Architect | Data & AI Leader
+Hi, I'm Preetam Balijepalli.
 
-Innovative technology leader with 24+ years of experience spearheading digital transformation through data analytics, engineering, and product management. Proven track record of architecting and scaling enterprise solutions across global markets, combining technical expertise with strategic business acumen to drive measurable impact.
+I'm a software professional with a passion for elegant solutions to complex problems. My work focuses on enterprise architecture, data systems, and how technology can drive meaningful business outcomes.
 
-# 🔹 Core Expertise
+## Interests
 
-### Domain Knowledge
-- BFSI (Banking, Financial Services, Insurance)
-- Smart Mobility & Location Intelligence
-- Agricultural Technology
-- Retail & PV Analytics
-- Enterprise Data Platforms
+- Distributed systems and microservice architectures
+- Data platforms and modern analytics ecosystems
+- Cloud-native application design
+- Software craftsmanship and engineering excellence
+- Mentoring and knowledge sharing
 
-### Technical Leadership
-- Enterprise Data & AI Architecture
-- Cloud-Native Solutions & MLOps
-- Digital Transformation
-- Data Mesh & Data Products
-- Enterprise Architecture & System Design
-- Security & Compliance Architecture
+## Current Focus
 
-# 🎯 Key Achievements
+I'm currently exploring the intersection of geospatial intelligence and AI/ML systems. Fascinated by how location data combined with machine learning can unlock new insights across diverse domains. Throughout my career, I've worked in BFSI (Banking, Financial Services, Insurance), Smart Mobility & Location Intelligence, Agricultural Technology, Retail & PV Analytics, and Enterprise Data Platforms—each providing unique challenges and perspectives. I'm drawn to how technology can bridge the gap between complex problems and elegant solutions, creating systems that adapt to changing needs while maintaining reliability at scale.
 
-## 🔄 Data Platform & Engineering Excellence
+## Connect
 
-| Area | Contribution & Impact |
-|------|------------------------|
-| Data Processing | Designed scalable platforms enabling real-time event processing for enterprise operations |
-| Cost Optimization | Implemented efficient ETL workflows leading to significant operational cost reduction |
-| Data Architecture | Enhanced data accessibility through modern mesh architecture implementation |
-| Digital Solutions | Developed digital twin platform improving deployment efficiency |
-| Governance | Established comprehensive data lineage and governance frameworks |
+When I'm not designing systems or exploring new technologies, you might find me trying to understand how things work at their core—whether it's a distributed database or a perfect cup of coffee. I believe the best solutions emerge from a deep understanding of fundamentals combined with creative application.
 
-## 🤖 ML/AI & Innovation Achievements
-- Streamlined ML operations to improve model deployment efficiency
-- Enhanced predictive analytics capabilities through feature engineering
-- Maintained high platform reliability during scale-up operations
-- Automated ML pipelines to improve development workflows
-- Implemented intelligent anomaly detection systems
+- [GitHub](https://github.com/balijepalli) – Where code speaks louder than words
+- [LinkedIn](https://www.linkedin.com/in/preetambalijepalli) – The more formal narrative of my journey
+- [Email](mailto:preetam.balijepalli@gmail.com) – For conversations that don't fit in 280 characters
 
-## ⚡ Enterprise Architecture Experience
-
-| Area | Key Contributions |
-|------|-------------------|
-| Microservices | • Designed scalable architecture for enterprise-level transaction processing |
-| Event-Driven Systems | • Implemented architecture patterns improving system responsiveness |
-| Development | • Built custom Spring Boot frameworks for accelerated development |
-| DevOps | • Established CI/CD practices streamlining deployment processes |
-| Components | • Created reusable Java/JEE components for enterprise applications |
-| Performance | • Enhanced JVM performance and system reliability |
-| Architecture Patterns | • Applied CQRS and Event Sourcing for complex domains |
-| Documentation | • Implemented ADR framework for architectural decisions |
-
-## 🏗️ Technical Leadership
-
-| Domain | Contributions & Scope |
-|--------|------------------------|
-| Platform Architecture | Led development of cloud-native solutions and microservices |
-| Data Management | Architected enterprise data lake for structured/unstructured data |
-| Team Leadership | Guided distributed engineering teams across global locations |
-| Governance | Developed and implemented enterprise-wide frameworks |
-| Mentorship | Supported career growth of engineering team members |
-
-### System Architecture Overview:
-```
-Enterprise Solutions
-├── Cloud Platform
-│   ├── Microservices Architecture
-│   ├── Event-Driven Systems
-│   └── Fault Tolerance
-├── Engineering Practices
-│   ├── CI/CD Implementation
-│   ├── Performance Optimization
-│   └── Architecture Patterns
-└── Team Development
-    ├── Technical Mentorship
-    ├── Best Practices
-    └── Knowledge Sharing
-```
-
-
-# 🚀 Innovation & Project Highlights
-- **Digital Twin Platform**: Led development of IoT-enabled digital twin solution reducing maintenance costs by 40%
-- **Smart Banking Platform**: Architected real-time fraud detection system processing $10B+ transactions annually
-- **Agricultural Analytics**: Developed predictive yield optimization platform improving crop yields by 25%
-- **Location Intelligence**: Built spatial analytics platform supporting 10M+ daily API calls
-
-# 💫 Professional Philosophy
-
-| Aspect | Approach |
-|--------|----------|
-| Strategic Vision | Bridging technology and business opportunities |
-| Global Perspective | Leveraging cross-cultural insights for solution design |
-| Innovation | Creating impactful solutions through emerging technologies |
-| Leadership | Combining technical expertise with strategic thinking |
-| Growth Mindset | Contributing to tech communities and fostering learning |
-
-# 🛠️ Methodology Framework
-
-| Framework | Application Areas |
-|-----------|-------------------|
-| ATAM | Architecture Evaluation |
-| TOGAF | Enterprise Architecture |
-| Zero Trust | Security Implementation |
-| SOC2 | Compliance Management |
-| Pattern-Oriented | System Design |
-
-# 🌱 Sustainability Initiatives
-- Champion of Green IT practices
-- Advocate for sustainable technology practices
-- Led carbon footprint reduction initiatives in tech operations
-
-# 📫 Contact Information
-- 📧 [preetam.balijepalli@gmail.com](mailto:preetam.balijepalli@gmail.com)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/preetambalijepalli)
-- 🌐 [Website](http://www.balijepalli.com)
-- 📝 [Tech Blog](http://www.balijepalli.com/blog)
-
----
-
-`#DataEngineering` `#CloudArchitecture` `#DataScience` `#MLOps` `#DigitalTransformation` `#AI` `#EnterpriseArchitecture`
+For the résumé version of my story, my [LinkedIn](https://www.linkedin.com/in/preetambalijepalli) profile has all the chapters and footnotes.

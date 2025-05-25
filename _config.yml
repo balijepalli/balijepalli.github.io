@@ -8,8 +8,8 @@
 
 # Site
 title: 👨‍💻 Curiosity of a Software Craftsman
-subtitle: "It doesn't matter if you are A LION OR A GAZELLE. When the Sun comes Up, You BETTER be RUNNING!"
-description: A tech geek's blog.
+subtitle: "Exploring software engineering, architecture, and the craft of building great applications"
+description: Thoughts on software development, architecture patterns, and best practices from a passionate engineer.
 author: Preetam Balijepalli
 language: en
 timezone:
@@ -29,8 +29,9 @@ direction: ltr
 nav:
   home: /
   about: /about/
-  articles: /archives/
+  writings: /archives/
   projects: http://github.com/balijepalli
+  rss: /atom.xml
   # tag: /tags/
   # category: /categories/
   # LINK_NAME: URL
@@ -46,7 +47,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 10
 
 # Customize the archive view.
 # Options:
@@ -108,7 +109,7 @@ logo:
   grayout: true
 
 theme_config:
-  colorscheme: light
+  colorscheme: dark
   ##############################################################################
   # Social Links
   ##############################################################################
@@ -152,10 +153,11 @@ theme_config:
     Facebook: facebook
     LinkedIn: linkedin
     Mail: envelope-o
+    RSS: rss
     
 
 # Maximal width of the page in rem units.
-page_width: 48
+page_width: 60
 
 # avatar
 avatar: /images/me.jpg
@@ -168,9 +170,20 @@ avatar: /images/me.jpg
 # Enable or disable the RSS feed.
 rss: true
 feed:
-  type: rss2
-  path: rss.xml
+  type: atom
+  path: atom.xml
   limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: images/favicon.ico
+  autodiscovery: true
+  template:
+  rss2:
+    enable: true
+    path: feed.xml
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
