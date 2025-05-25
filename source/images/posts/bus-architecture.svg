@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2b5797" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Enterprise Service Bus -->
+  <rect x="100" y="230" width="600" height="40" rx="5" fill="#ed7d31" />
+  <text x="400" y="255" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Enterprise Service Bus</text>
+  
+  <!-- Systems -->
+  <!-- CRM System -->
+  <rect x="130" y="80" width="120" height="60" rx="10" fill="#4472c4" />
+  <text x="190" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">CRM System</text>
+  
+  <!-- ERP System -->
+  <rect x="340" y="80" width="120" height="60" rx="10" fill="#4472c4" />
+  <text x="400" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">ERP System</text>
+  
+  <!-- Legacy System -->
+  <rect x="550" y="80" width="120" height="60" rx="10" fill="#4472c4" />
+  <text x="610" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Legacy System</text>
+  
+  <!-- Cloud Services -->
+  <rect x="130" y="360" width="120" height="60" rx="10" fill="#4472c4" />
+  <text x="190" y="395" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Cloud Services</text>
+  
+  <!-- Data Warehouse -->
+  <rect x="340" y="360" width="120" height="60" rx="10" fill="#4472c4" />
+  <text x="400" y="395" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Data Warehouse</text>
+  
+  <!-- Mobile Apps -->
+  <rect x="550" y="360" width="120" height="60" rx="10" fill="#4472c4" />
+  <text x="610" y="395" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Mobile Apps</text>
+  
+  <!-- Adapters and Connectors -->
+  <rect x="145" y="170" width="90" height="30" rx="5" fill="#70ad47" />
+  <text x="190" y="190" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">CRM Adapter</text>
+  
+  <rect x="355" y="170" width="90" height="30" rx="5" fill="#70ad47" />
+  <text x="400" y="190" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">ERP Adapter</text>
+  
+  <rect x="565" y="170" width="90" height="30" rx="5" fill="#70ad47" />
+  <text x="610" y="190" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">Legacy Adapter</text>
+  
+  <rect x="145" y="300" width="90" height="30" rx="5" fill="#70ad47" />
+  <text x="190" y="320" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">Cloud Connector</text>
+  
+  <rect x="355" y="300" width="90" height="30" rx="5" fill="#70ad47" />
+  <text x="400" y="320" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">DW Connector</text>
+  
+  <rect x="565" y="300" width="90" height="30" rx="5" fill="#70ad47" />
+  <text x="610" y="320" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">Mobile API</text>
+  
+  <!-- Connections -->
+  <!-- CRM to Adapter -->
+  <line x1="190" y1="140" x2="190" y2="170" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  <!-- Adapter to Bus -->
+  <line x1="190" y1="200" x2="190" y2="230" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- ERP to Adapter -->
+  <line x1="400" y1="140" x2="400" y2="170" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  <!-- Adapter to Bus -->
+  <line x1="400" y1="200" x2="400" y2="230" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Legacy to Adapter -->
+  <line x1="610" y1="140" x2="610" y2="170" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  <!-- Adapter to Bus -->
+  <line x1="610" y1="200" x2="610" y2="230" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Bus to Cloud Connector -->
+  <line x1="190" y1="270" x2="190" y2="300" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  <!-- Connector to Cloud -->
+  <line x1="190" y1="330" x2="190" y2="360" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Bus to DW Connector -->
+  <line x1="400" y1="270" x2="400" y2="300" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  <!-- Connector to DW -->
+  <line x1="400" y1="330" x2="400" y2="360" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Bus to Mobile API -->
+  <line x1="610" y1="270" x2="610" y2="300" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  <!-- API to Mobile -->
+  <line x1="610" y1="330" x2="610" y2="360" stroke="#2b5797" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Labels -->
+  <text x="400" y="30" font-family="Arial" font-size="24" font-weight="bold" fill="#333333" text-anchor="middle">Bus Architecture</text>
+  <text x="400" y="470" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">Distributed integration pattern with applications connecting to a common messaging backbone</text>
+</svg>
