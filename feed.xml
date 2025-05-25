@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>👨‍💻 Curiosity of a Software Craftsman</title>
+    <link>http://balijepalli.com</link>
+    <atom:link href="http://balijepalli.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Thoughts on software development, architecture patterns, and best practices from a passionate engineer.</description>
+    <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+    <language>en</language>
+    <managingEditor>preetam.balijepalli@gmail.com (Preetam Balijepalli)</managingEditor>
+    <webMaster>preetam.balijepalli@gmail.com (Preetam Balijepalli)</webMaster>
+    <generator>https://hexo.io/</generator>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <category>Software Development</category>
+    <category>Architecture</category>
+    <category>Engineering</category>
+    <copyright>© 2016-2025 Preetam Balijepalli</copyright>
+    <image>
+      <url>http://balijepalli.com/images/logo.png</url>
+      <title>👨‍💻 Curiosity of a Software Craftsman</title>
+      <link>http://balijepalli.com</link>
+    </image>
+    <item>
+      <title>Enterprise Integration Architecture: EAI vs ESB vs SOA - a Modern Perspective</title>
+      <link>http://balijepalli.com/2025/04/21/eai-vs-esb-vs-soa/</link>
+      <guid isPermaLink="true">http://balijepalli.com/2025/04/21/eai-vs-esb-vs-soa/</guid>
+      <pubDate>Sun, 21 Apr 2025 01:33:24 GMT</pubDate>
+      <description>A comprehensive comparison of Enterprise Application Integration (EAI), Enterprise Service Bus (ESB), and Service-Oriented Architecture (SOA) approaches for modern enterprise systems.</description>
+      <category>Architecture</category>
+      <category>Integration</category>
+      <category>Enterprise</category>
+    </item>
+    <item>
+      <title>Nine Things Successful People Do Differently</title>
+      <link>http://balijepalli.com/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/</link>
+      <guid isPermaLink="true">http://balijepalli.com/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/</guid>
+      <pubDate>Tue, 07 Jun 2011 05:05:36 GMT</pubDate>
+      <description>Key insights from Heidi Grant Halvorson's research on what makes successful people different and how to apply these principles.</description>
+      <category>Personal Development</category>
+      <category>Success</category>
+    </item>
+  </channel>
+</rss>
