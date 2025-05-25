@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Nine Things Successful People Do Differently - Heidi Grant Halvorson - the Conversation - Harvard Business Review</title>
-    <url>/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/</url>
-    <content><![CDATA[Nine Things Successful People Do Differently - Heidi Grant Halvorson - The Conversation - Harvard Business Review.
-]]></content>
-      <categories>
-        <category>Leadership</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Enterprise Integration Architecture: EAI vs ESB vs SOA - a Modern Perspective</title>
     <url>/2025/04/30/eai-vs-esb-vs-soa/</url>
     <content><![CDATA[IntroductionEnterprise integration has evolved significantly over the years, with various architectural patterns emerging to solve different integration challenges. This article aims to clarify the distinctions between Enterprise Application Integration (EAI), Enterprise Service Bus (ESB), and Service-Oriented Architecture (SOA), while providing guidance on when to use each approach in modern enterprise environments.
@@ -21,18 +12,31 @@ Maintains independence from other services
 Operates within distributed systems architecture
 
 Evolution of SOA
-Traditional Implementation
 
-Component Object Model (COM)
+Traditional Implementation (1990s)
+
+Component Object Model (COM&#x2F;DCOM)
 Object Request Broker (ORB) based on CORBA
 
 
-Modern Implementation
+Web Services Era (Early 2000s)
 
-Web Services with WSDL, UDDI, and SOAP
-RESTful Services
+SOAP, WSDL, and UDDI standards
+XML-based messaging
+
+
+Modern Implementation (2010s)
+
+RESTful Services and JSON
+API Management platforms
+OAuth and modern security standards
+
+
+Cloud-Native SOA (2020s)
+
 Microservices Architecture
 Event-Driven Architecture (EDA)
+Containerization and orchestration
 
 
 
@@ -404,5 +408,14 @@ Organizations should view these architectures not as competing alternatives but 
         <tag>integration</tag>
         <tag>architecture</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Nine Things Successful People Do Differently - Heidi Grant Halvorson - the Conversation - Harvard Business Review</title>
+    <url>/2011/06/07/nine-things-successful-people-do-differently-heidi-grant-halvorson-the-conversation-harvard-business-review/</url>
+    <content><![CDATA[Nine Things Successful People Do Differently - Heidi Grant Halvorson - The Conversation - Harvard Business Review.
+]]></content>
+      <categories>
+        <category>Leadership</category>
+      </categories>
   </entry>
 </search>
