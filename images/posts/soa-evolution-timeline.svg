@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="20" font-weight="bold" fill="#333333" text-anchor="middle">Evolution of Service-Oriented Architecture (SOA)</text>
+  
+  <!-- Timeline Line -->
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#333333" stroke-width="3" marker-end="url(#arrowhead)" />
+  
+  <!-- Timeline Periods -->
+  <text x="150" y="180" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">1990s</text>
+  <text x="280" y="180" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">Early 2000s</text>
+  <text x="450" y="180" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">2010s</text>
+  <text x="630" y="180" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">2020s</text>
+  
+  <!-- Traditional SOA Implementation -->
+  <circle cx="150" cy="150" r="10" fill="#4472c4" />
+  <rect x="70" y="90" width="160" height="40" rx="5" fill="#4472c4" />
+  <text x="150" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Traditional SOA</text>
+  
+  <rect x="100" y="50" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="150" y="70" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">COM/DCOM</text>
+  
+  <rect x="100" y="10" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="150" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">CORBA/ORB</text>
+  
+  <!-- Web Services Era -->
+  <circle cx="280" cy="150" r="10" fill="#4472c4" />
+  <rect x="200" y="90" width="160" height="40" rx="5" fill="#4472c4" />
+  <text x="280" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Web Services</text>
+  
+  <rect x="230" y="50" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="280" y="70" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">SOAP/WSDL/UDDI</text>
+  
+  <rect x="230" y="10" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="280" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">XML/XSD</text>
+  
+  <!-- REST & Modern SOA -->
+  <circle cx="450" cy="150" r="10" fill="#4472c4" />
+  <rect x="370" y="90" width="160" height="40" rx="5" fill="#4472c4" />
+  <text x="450" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Modern SOA</text>
+  
+  <rect x="400" y="50" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="450" y="70" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">RESTful APIs</text>
+  
+  <rect x="400" y="10" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="450" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">JSON/OAuth</text>
+  
+  <!-- Microservices & Cloud-Native -->
+  <circle cx="630" cy="150" r="10" fill="#4472c4" />
+  <rect x="550" y="90" width="160" height="40" rx="5" fill="#4472c4" />
+  <text x="630" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">Cloud-Native SOA</text>
+  
+  <rect x="580" y="50" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="630" y="70" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">Microservices</text>
+  
+  <rect x="580" y="10" width="100" height="30" rx="5" fill="#70ad47" />
+  <text x="630" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">Event-Driven</text>
+  
+  <!-- Additional Information -->
+  <rect x="50" y="220" width="160" height="60" rx="5" fill="#f0f0f0" stroke="#dddddd" stroke-width="1" />
+  <text x="130" y="240" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Distributed Computing</text>
+  <text x="130" y="260" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Language-specific</text>
+  <text x="130" y="275" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Tightly coupled</text>
+  
+  <rect x="230" y="220" width="160" height="60" rx="5" fill="#f0f0f0" stroke="#dddddd" stroke-width="1" />
+  <text x="310" y="240" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Enterprise SOA</text>
+  <text x="310" y="260" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Complex standards</text>
+  <text x="310" y="275" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Interoperability focus</text>
+  
+  <rect x="410" y="220" width="160" height="60" rx="5" fill="#f0f0f0" stroke="#dddddd" stroke-width="1" />
+  <text x="490" y="240" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Web-Centric SOA</text>
+  <text x="490" y="260" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Lightweight protocols</text>
+  <text x="490" y="275" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Mobile & web integration</text>
+  
+  <rect x="590" y="220" width="160" height="60" rx="5" fill="#f0f0f0" stroke="#dddddd" stroke-width="1" />
+  <text x="670" y="240" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Containerized SOA</text>
+  <text x="670" y="260" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">Cloud-native patterns</text>
+  <text x="670" y="275" font-family="Arial" font-size="11" fill="#666666" text-anchor="middle">DevOps integration</text>
+</svg>

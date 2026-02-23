@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="The Convergence of Data Science and Geospatial AnalysisGeospatial data science represents the intersection of traditional data science techniques with location-based data and spatial analytics. This r">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Geospatial Data Science: Merging Location Intelligence With Machine Learning">
+<meta property="og:url" content="http://balijepalli.com/2025/06/10/geospatial-data-science/index.html">
+<meta property="og:site_name" content="👨‍💻 Curiosity of a Software Craftsman">
+<meta property="og:description" content="The Convergence of Data Science and Geospatial AnalysisGeospatial data science represents the intersection of traditional data science techniques with location-based data and spatial analytics. This r">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-06-10T03:45:00.000Z">
+<meta property="article:modified_time" content="2025-05-25T18:45:19.160Z">
+<meta property="article:author" content="Preetam Balijepalli">
+<meta property="article:tag" content="data science">
+<meta property="article:tag" content="geospatial">
+<meta property="article:tag" content="machine learning">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="spatial analysis">
+<meta property="article:tag" content="satellite imagery">
+<meta property="article:tag" content="deep learning">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Geospatial Data Science: Merging Location Intelligence With Machine Learning</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+    <link rel="alternate" href="/atom.xml" title="👨‍💻 Curiosity of a Software Craftsman - Atom Feed" type="application/atom+xml" />
+    <link rel="alternate" href="/feed.xml" title="👨‍💻 Curiosity of a Software Craftsman - RSS Feed" type="application/rss+xml" />
+    <meta name="description" content="Thoughts on software development, architecture patterns, and best practices from a passionate engineer." />
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="http://github.com/balijepalli">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2026/02/23/2025-05-21/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2025/06/05/geospatial-data-analysis/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://balijepalli.com/2025/06/10/geospatial-data-science/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&text=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&is_video=false&description=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Geospatial Data Science: Merging Location Intelligence With Machine Learning&body=Check out this article: http://balijepalli.com/2025/06/10/geospatial-data-science/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&name=Geospatial Data Science: Merging Location Intelligence With Machine Learning&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://balijepalli.com/2025/06/10/geospatial-data-science/&t=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#The-Convergence-of-Data-Science-and-Geospatial-Analysis"><span class="toc-number">1.</span> <span class="toc-text">The Convergence of Data Science and Geospatial Analysis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Key-Components-of-Geospatial-Data-Science"><span class="toc-number">2.</span> <span class="toc-text">Key Components of Geospatial Data Science</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Spatial-Data-Processing"><span class="toc-number">2.1.</span> <span class="toc-text">1. Spatial Data Processing</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Feature-Engineering-for-Spatial-Data"><span class="toc-number">2.2.</span> <span class="toc-text">2. Feature Engineering for Spatial Data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Machine-Learning-with-Spatial-Components"><span class="toc-number">2.3.</span> <span class="toc-text">3. Machine Learning with Spatial Components</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python-Ecosystem-for-Geospatial-Data-Science"><span class="toc-number">3.</span> <span class="toc-text">Python Ecosystem for Geospatial Data Science</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deep-Learning-for-Satellite-Imagery-Analysis"><span class="toc-number">4.</span> <span class="toc-text">Deep Learning for Satellite Imagery Analysis</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Convolutional-Neural-Networks-for-Land-Use-Classification"><span class="toc-number">4.1.</span> <span class="toc-text">Convolutional Neural Networks for Land Use Classification</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#U-Net-for-Semantic-Segmentation"><span class="toc-number">4.2.</span> <span class="toc-text">U-Net for Semantic Segmentation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Change-Detection-in-Time-Series-Data"><span class="toc-number">4.3.</span> <span class="toc-text">Change Detection in Time Series Data</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Case-Study-Predicting-Property-Values-with-Geospatial-Features"><span class="toc-number">5.</span> <span class="toc-text">Case Study: Predicting Property Values with Geospatial Features</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-Statement"><span class="toc-number">5.1.</span> <span class="toc-text">Problem Statement</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-Sources"><span class="toc-number">5.2.</span> <span class="toc-text">Data Sources</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Methodology"><span class="toc-number">5.3.</span> <span class="toc-text">Methodology</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Implementation-Highlights"><span class="toc-number">5.4.</span> <span class="toc-text">Implementation Highlights</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Results-Visualization"><span class="toc-number">5.5.</span> <span class="toc-text">Results Visualization</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ethical-Considerations-in-Geospatial-Data-Science"><span class="toc-number">6.</span> <span class="toc-text">Ethical Considerations in Geospatial Data Science</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Privacy-Concerns"><span class="toc-number">6.1.</span> <span class="toc-text">Privacy Concerns</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Bias-and-Fairness"><span class="toc-number">6.2.</span> <span class="toc-text">Bias and Fairness</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Environmental-Impact"><span class="toc-number">6.3.</span> <span class="toc-text">Environmental Impact</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Future-Directions"><span class="toc-number">7.</span> <span class="toc-text">Future Directions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">8.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        Geospatial Data Science: Merging Location Intelligence With Machine Learning
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Preetam Balijepalli</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2025-06-10T03:45:00.000Z" class="dt-published" itemprop="datePublished">2025-06-10</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/data/">data</a> › <a class="category-link" href="/categories/data/geospatial/">geospatial</a> › <a class="category-link" href="/categories/data/geospatial/data-science/">data science</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/Python/" rel="tag">Python</a>, <a class="p-category" href="/tags/data-science/" rel="tag">data science</a>, <a class="p-category" href="/tags/deep-learning/" rel="tag">deep learning</a>, <a class="p-category" href="/tags/geospatial/" rel="tag">geospatial</a>, <a class="p-category" href="/tags/machine-learning/" rel="tag">machine learning</a>, <a class="p-category" href="/tags/satellite-imagery/" rel="tag">satellite imagery</a>, <a class="p-category" href="/tags/spatial-analysis/" rel="tag">spatial analysis</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <h2 id="The-Convergence-of-Data-Science-and-Geospatial-Analysis"><a href="#The-Convergence-of-Data-Science-and-Geospatial-Analysis" class="headerlink" title="The Convergence of Data Science and Geospatial Analysis"></a>The Convergence of Data Science and Geospatial Analysis</h2><p>Geospatial data science represents the intersection of traditional data science techniques with location-based data and spatial analytics. This rapidly evolving field combines statistical methods, machine learning, and geographic information systems to extract meaningful insights from location-enriched datasets.</p>
+<h2 id="Key-Components-of-Geospatial-Data-Science"><a href="#Key-Components-of-Geospatial-Data-Science" class="headerlink" title="Key Components of Geospatial Data Science"></a>Key Components of Geospatial Data Science</h2><h3 id="1-Spatial-Data-Processing"><a href="#1-Spatial-Data-Processing" class="headerlink" title="1. Spatial Data Processing"></a>1. Spatial Data Processing</h3><p>Before applying advanced analytics, geospatial data requires specialized preprocessing:</p>
+<ul>
+<li><strong>Coordinate Reference System (CRS) Harmonization</strong>: Ensuring consistent spatial frameworks</li>
+<li><strong>Spatial Indexing</strong>: Optimizing queries for location-based operations</li>
+<li><strong>Topology Validation</strong>: Ensuring geometric integrity</li>
+<li><strong>Spatial Interpolation</strong>: Estimating values at unsampled locations</li>
+</ul>
+<h3 id="2-Feature-Engineering-for-Spatial-Data"><a href="#2-Feature-Engineering-for-Spatial-Data" class="headerlink" title="2. Feature Engineering for Spatial Data"></a>2. Feature Engineering for Spatial Data</h3><p>Creating meaningful features from location data:</p>
+<ul>
+<li><strong>Distance-Based Features</strong>: Proximity to points of interest</li>
+<li><strong>Density Measures</strong>: Concentration of phenomena within areas</li>
+<li><strong>Spatial Lag Variables</strong>: Values from neighboring observations</li>
+<li><strong>Terrain Attributes</strong>: Slope, aspect, elevation derivatives</li>
+<li><strong>Spatial Pattern Metrics</strong>: Measures of dispersion, clustering</li>
+</ul>
+<h3 id="3-Machine-Learning-with-Spatial-Components"><a href="#3-Machine-Learning-with-Spatial-Components" class="headerlink" title="3. Machine Learning with Spatial Components"></a>3. Machine Learning with Spatial Components</h3><p>Adapting traditional ML approaches for spatial contexts:</p>
+<ul>
+<li><strong>Spatial Autocorrelation Handling</strong>: Accounting for Tobler’s first law (“Everything is related to everything else, but near things are more related than distant things”)</li>
+<li><strong>Geographically Weighted Regression</strong>: Allowing model parameters to vary across space</li>
+<li><strong>Spatial Random Forests</strong>: Incorporating spatial dependencies</li>
+<li><strong>Spatial Cross-Validation</strong>: Preventing data leakage across nearby locations</li>
+</ul>
+<h2 id="Python-Ecosystem-for-Geospatial-Data-Science"><a href="#Python-Ecosystem-for-Geospatial-Data-Science" class="headerlink" title="Python Ecosystem for Geospatial Data Science"></a>Python Ecosystem for Geospatial Data Science</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Essential libraries for geospatial data science</span></span><br><span class="line"><span class="keyword">import</span> geopandas <span class="keyword">as</span> gpd</span><br><span class="line"><span class="keyword">import</span> rasterio</span><br><span class="line"><span class="keyword">import</span> xarray <span class="keyword">as</span> xr</span><br><span class="line"><span class="keyword">import</span> folium</span><br><span class="line"><span class="keyword">import</span> pysal</span><br><span class="line"><span class="keyword">import</span> sklearn</span><br><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</span><br><span class="line"><span class="keyword">import</span> pytorch</span><br><span class="line"></span><br><span class="line"><span class="comment"># Loading vector data</span></span><br><span class="line">gdf = gpd.read_file(<span class="string">&#x27;neighborhoods.geojson&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Spatial join with point data</span></span><br><span class="line">points = gpd.read_file(<span class="string">&#x27;incidents.geojson&#x27;</span>)</span><br><span class="line">joined = gpd.sjoin(gdf, points, how=<span class="string">&quot;inner&quot;</span>, predicate=<span class="string">&quot;contains&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Creating spatial features</span></span><br><span class="line">gdf[<span class="string">&#x27;area_km2&#x27;</span>] = gdf[<span class="string">&#x27;geometry&#x27;</span>].area / <span class="number">10</span>**<span class="number">6</span></span><br><span class="line">gdf[<span class="string">&#x27;centroid&#x27;</span>] = gdf[<span class="string">&#x27;geometry&#x27;</span>].centroid</span><br><span class="line">gdf[<span class="string">&#x27;distance_to_cbd&#x27;</span>] = gdf[<span class="string">&#x27;centroid&#x27;</span>].distance(cbd_point)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Analyzing spatial autocorrelation</span></span><br><span class="line"><span class="keyword">from</span> pysal.explore <span class="keyword">import</span> esda</span><br><span class="line"><span class="keyword">from</span> pysal.lib <span class="keyword">import</span> weights</span><br><span class="line"></span><br><span class="line"><span class="comment"># Create spatial weights matrix</span></span><br><span class="line">w = weights.Queen.from_dataframe(gdf)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Calculate Moran&#x27;s I for a variable</span></span><br><span class="line">moran = esda.Moran(gdf[<span class="string">&#x27;median_income&#x27;</span>], w)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;Moran&#x27;s I: <span class="subst">&#123;moran.I&#125;</span>, p-value: <span class="subst">&#123;moran.p_sim&#125;</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Deep-Learning-for-Satellite-Imagery-Analysis"><a href="#Deep-Learning-for-Satellite-Imagery-Analysis" class="headerlink" title="Deep Learning for Satellite Imagery Analysis"></a>Deep Learning for Satellite Imagery Analysis</h2><p>Deep learning has revolutionized how we analyze Earth observation data:</p>
+<h3 id="Convolutional-Neural-Networks-for-Land-Use-Classification"><a href="#Convolutional-Neural-Networks-for-Land-Use-Classification" class="headerlink" title="Convolutional Neural Networks for Land Use Classification"></a>Convolutional Neural Networks for Land Use Classification</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> tensorflow.keras.models <span class="keyword">import</span> Sequential</span><br><span class="line"><span class="keyword">from</span> tensorflow.keras.layers <span class="keyword">import</span> Conv2D, MaxPooling2D, Dense, Flatten</span><br><span class="line"></span><br><span class="line"><span class="comment"># Define a simple CNN for satellite image classification</span></span><br><span class="line">model = Sequential([</span><br><span class="line">    Conv2D(<span class="number">32</span>, (<span class="number">3</span>, <span class="number">3</span>), activation=<span class="string">&#x27;relu&#x27;</span>, input_shape=(<span class="number">64</span>, <span class="number">64</span>, <span class="number">4</span>)),</span><br><span class="line">    MaxPooling2D((<span class="number">2</span>, <span class="number">2</span>)),</span><br><span class="line">    Conv2D(<span class="number">64</span>, (<span class="number">3</span>, <span class="number">3</span>), activation=<span class="string">&#x27;relu&#x27;</span>),</span><br><span class="line">    MaxPooling2D((<span class="number">2</span>, <span class="number">2</span>)),</span><br><span class="line">    Conv2D(<span class="number">128</span>, (<span class="number">3</span>, <span class="number">3</span>), activation=<span class="string">&#x27;relu&#x27;</span>),</span><br><span class="line">    MaxPooling2D((<span class="number">2</span>, <span class="number">2</span>)),</span><br><span class="line">    Flatten(),</span><br><span class="line">    Dense(<span class="number">128</span>, activation=<span class="string">&#x27;relu&#x27;</span>),</span><br><span class="line">    Dense(<span class="number">7</span>, activation=<span class="string">&#x27;softmax&#x27;</span>)  <span class="comment"># 7 land use classes</span></span><br><span class="line">])</span><br><span class="line"></span><br><span class="line">model.<span class="built_in">compile</span>(optimizer=<span class="string">&#x27;adam&#x27;</span>,</span><br><span class="line">              loss=<span class="string">&#x27;categorical_crossentropy&#x27;</span>,</span><br><span class="line">              metrics=[<span class="string">&#x27;accuracy&#x27;</span>])</span><br></pre></td></tr></table></figure>
+
+<h3 id="U-Net-for-Semantic-Segmentation"><a href="#U-Net-for-Semantic-Segmentation" class="headerlink" title="U-Net for Semantic Segmentation"></a>U-Net for Semantic Segmentation</h3><p>Semantic segmentation models like U-Net excel at pixel-level classification:</p>
+<ul>
+<li><strong>Building Footprint Extraction</strong>: Identifying structures from aerial imagery</li>
+<li><strong>Road Network Detection</strong>: Mapping transportation infrastructure</li>
+<li><strong>Crop Field Delineation</strong>: Agricultural parcel identification</li>
+<li><strong>Forest Cover Mapping</strong>: Tree canopy detection</li>
+</ul>
+<h3 id="Change-Detection-in-Time-Series-Data"><a href="#Change-Detection-in-Time-Series-Data" class="headerlink" title="Change Detection in Time Series Data"></a>Change Detection in Time Series Data</h3><p>Monitoring environmental changes over time:</p>
+<ul>
+<li><strong>Urban Expansion</strong>: Tracking city growth</li>
+<li><strong>Deforestation Analysis</strong>: Forest loss detection</li>
+<li><strong>Disaster Impact Assessment</strong>: Before&#x2F;after comparisons</li>
+<li><strong>Glacier Retreat Monitoring</strong>: Ice cover changes</li>
+</ul>
+<h2 id="Case-Study-Predicting-Property-Values-with-Geospatial-Features"><a href="#Case-Study-Predicting-Property-Values-with-Geospatial-Features" class="headerlink" title="Case Study: Predicting Property Values with Geospatial Features"></a>Case Study: Predicting Property Values with Geospatial Features</h2><h3 id="Problem-Statement"><a href="#Problem-Statement" class="headerlink" title="Problem Statement"></a>Problem Statement</h3><p>Develop a model to predict residential property values incorporating both traditional and geospatial predictors.</p>
+<h3 id="Data-Sources"><a href="#Data-Sources" class="headerlink" title="Data Sources"></a>Data Sources</h3><ul>
+<li>Property transaction records</li>
+<li>Building characteristics</li>
+<li>Neighborhood demographics</li>
+<li>Points of interest (schools, parks, transit)</li>
+<li>Environmental factors (green space, pollution)</li>
+<li>Satellite imagery features</li>
+</ul>
+<h3 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h3><ol>
+<li><p><strong>Data Integration</strong></p>
+<ul>
+<li>Geocode property locations</li>
+<li>Join with neighborhood characteristics</li>
+<li>Calculate distance-based features</li>
+<li>Extract satellite imagery for each property</li>
+</ul>
+</li>
+<li><p><strong>Feature Engineering</strong></p>
+<ul>
+<li>Create accessibility metrics (walk scores, transit access)</li>
+<li>Generate viewshed analysis (visible area from property)</li>
+<li>Calculate proximity to amenities&#x2F;disamenities</li>
+<li>Extract image features from satellite data</li>
+</ul>
+</li>
+<li><p><strong>Modeling Approach</strong></p>
+<ul>
+<li>Handle spatial autocorrelation in data</li>
+<li>Train ensemble models with hyperparameter optimization</li>
+<li>Implement spatial cross-validation</li>
+<li>Interpret model with SHAP values</li>
+</ul>
+</li>
+</ol>
+<h3 id="Implementation-Highlights"><a href="#Implementation-Highlights" class="headerlink" title="Implementation Highlights"></a>Implementation Highlights</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Creating accessibility features</span></span><br><span class="line">properties[<span class="string">&#x27;dist_to_park&#x27;</span>] = properties.apply(</span><br><span class="line">    <span class="keyword">lambda</span> x: nearest_distance(x.geometry, parks.geometry), axis=<span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">properties[<span class="string">&#x27;dist_to_school&#x27;</span>] = properties.apply(</span><br><span class="line">    <span class="keyword">lambda</span> x: nearest_distance(x.geometry, schools.geometry), axis=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Calculate density features</span></span><br><span class="line">properties[<span class="string">&#x27;poi_density_1km&#x27;</span>] = properties.apply(</span><br><span class="line">    <span class="keyword">lambda</span> x: count_within_buffer(x.geometry, pois.geometry, <span class="number">1000</span>), axis=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Generate buffer-based features</span></span><br><span class="line">properties[<span class="string">&#x27;green_space_500m&#x27;</span>] = properties.apply(</span><br><span class="line">    <span class="keyword">lambda</span> x: calculate_green_area(x.geometry.buffer(<span class="number">500</span>), landcover), axis=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Handle spatial autocorrelation</span></span><br><span class="line"><span class="keyword">from</span> mgwr.gwr <span class="keyword">import</span> GWR, MGWR</span><br><span class="line"><span class="keyword">from</span> mgwr.sel_bw <span class="keyword">import</span> Sel_BW</span><br><span class="line"></span><br><span class="line"><span class="comment"># Prepare data</span></span><br><span class="line">X = properties[feature_columns].values</span><br><span class="line">y = properties[<span class="string">&#x27;sale_price&#x27;</span>].values</span><br><span class="line">coords = properties[[<span class="string">&#x27;x_coord&#x27;</span>, <span class="string">&#x27;y_coord&#x27;</span>]].values</span><br><span class="line"></span><br><span class="line"><span class="comment"># Find optimal bandwidth</span></span><br><span class="line">bw = Sel_BW(coords, y, X).search()</span><br><span class="line"></span><br><span class="line"><span class="comment"># Run geographically weighted regression</span></span><br><span class="line">model = GWR(coords, y, X, bw).fit()</span><br><span class="line"><span class="built_in">print</span>(model.summary())</span><br></pre></td></tr></table></figure>
+
+<h3 id="Results-Visualization"><a href="#Results-Visualization" class="headerlink" title="Results Visualization"></a>Results Visualization</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Create interactive map of predictions</span></span><br><span class="line">m = folium.Map(location=[city_lat, city_lon], zoom_start=<span class="number">12</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add choropleth layer</span></span><br><span class="line">folium.Choropleth(</span><br><span class="line">    geo_data=neighborhoods.to_json(),</span><br><span class="line">    data=neighborhood_predictions,</span><br><span class="line">    columns=[<span class="string">&#x27;neighborhood_id&#x27;</span>, <span class="string">&#x27;avg_predicted_value&#x27;</span>],</span><br><span class="line">    key_on=<span class="string">&#x27;feature.properties.neighborhood_id&#x27;</span>,</span><br><span class="line">    fill_color=<span class="string">&#x27;YlOrRd&#x27;</span>,</span><br><span class="line">    fill_opacity=<span class="number">0.7</span>,</span><br><span class="line">    line_opacity=<span class="number">0.2</span>,</span><br><span class="line">    legend_name=<span class="string">&#x27;Predicted Property Value ($)&#x27;</span></span><br><span class="line">).add_to(m)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add property points</span></span><br><span class="line"><span class="keyword">for</span> idx, row <span class="keyword">in</span> properties.iterrows():</span><br><span class="line">    folium.CircleMarker(</span><br><span class="line">        location=[row.geometry.y, row.geometry.x],</span><br><span class="line">        radius=<span class="number">3</span>,</span><br><span class="line">        color=<span class="string">&#x27;blue&#x27;</span>,</span><br><span class="line">        fill=<span class="literal">True</span>,</span><br><span class="line">        popup=<span class="string">f&quot;Actual: $<span class="subst">&#123;row.sale_price:,<span class="number">.0</span>f&#125;</span>&lt;br&gt;Predicted: $<span class="subst">&#123;row.predicted_value:,<span class="number">.0</span>f&#125;</span>&quot;</span></span><br><span class="line">    ).add_to(m)</span><br><span class="line"></span><br><span class="line">m.save(<span class="string">&#x27;property_predictions.html&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Ethical-Considerations-in-Geospatial-Data-Science"><a href="#Ethical-Considerations-in-Geospatial-Data-Science" class="headerlink" title="Ethical Considerations in Geospatial Data Science"></a>Ethical Considerations in Geospatial Data Science</h2><h3 id="Privacy-Concerns"><a href="#Privacy-Concerns" class="headerlink" title="Privacy Concerns"></a>Privacy Concerns</h3><ul>
+<li><strong>Location Privacy</strong>: Risks of re-identification through location patterns</li>
+<li><strong>Aggregation Strategies</strong>: Balancing utility with privacy protection</li>
+<li><strong>Consent Management</strong>: Ethical collection of location data</li>
+</ul>
+<h3 id="Bias-and-Fairness"><a href="#Bias-and-Fairness" class="headerlink" title="Bias and Fairness"></a>Bias and Fairness</h3><ul>
+<li><strong>Spatial Sampling Bias</strong>: Under-representation of certain areas</li>
+<li><strong>Historical Inequities</strong>: Reinforcing patterns through predictive models</li>
+<li><strong>Digital Divide</strong>: Unequal data coverage across regions</li>
+</ul>
+<h3 id="Environmental-Impact"><a href="#Environmental-Impact" class="headerlink" title="Environmental Impact"></a>Environmental Impact</h3><ul>
+<li><strong>Remote Sensing Ethics</strong>: Responsible use of Earth observation</li>
+<li><strong>Climate Considerations</strong>: Energy usage of geospatial computing</li>
+<li><strong>Conservation Applications</strong>: Supporting ecological preservation</li>
+</ul>
+<h2 id="Future-Directions"><a href="#Future-Directions" class="headerlink" title="Future Directions"></a>Future Directions</h2><ol>
+<li><strong>Federated Geospatial Learning</strong>: Privacy-preserving distributed analysis</li>
+<li><strong>Real-time Spatial Predictions</strong>: Low-latency modeling for dynamic phenomena</li>
+<li><strong>Multimodal Fusion</strong>: Combining satellite, street-level, and sensor data</li>
+<li><strong>Foundation Models for Geospatial Data</strong>: Large-scale pre-trained models</li>
+<li><strong>Explainable AI for Spatial Modeling</strong>: Interpretable location-based predictions</li>
+</ol>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Geospatial data science offers powerful approaches for extracting insights from location-enriched data. By combining traditional data science techniques with spatial analytics, organizations can unlock deeper understanding of geographic patterns and relationships. As computational capabilities advance and data sources proliferate, we can expect continued innovation at this exciting intersection of fields.</p>
+<p>In future articles, we’ll explore specific techniques like spatial point process modeling and geospatial deep learning architectures in greater detail.</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a href="http://github.com/balijepalli">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#The-Convergence-of-Data-Science-and-Geospatial-Analysis"><span class="toc-number">1.</span> <span class="toc-text">The Convergence of Data Science and Geospatial Analysis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Key-Components-of-Geospatial-Data-Science"><span class="toc-number">2.</span> <span class="toc-text">Key Components of Geospatial Data Science</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Spatial-Data-Processing"><span class="toc-number">2.1.</span> <span class="toc-text">1. Spatial Data Processing</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Feature-Engineering-for-Spatial-Data"><span class="toc-number">2.2.</span> <span class="toc-text">2. Feature Engineering for Spatial Data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Machine-Learning-with-Spatial-Components"><span class="toc-number">2.3.</span> <span class="toc-text">3. Machine Learning with Spatial Components</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python-Ecosystem-for-Geospatial-Data-Science"><span class="toc-number">3.</span> <span class="toc-text">Python Ecosystem for Geospatial Data Science</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deep-Learning-for-Satellite-Imagery-Analysis"><span class="toc-number">4.</span> <span class="toc-text">Deep Learning for Satellite Imagery Analysis</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Convolutional-Neural-Networks-for-Land-Use-Classification"><span class="toc-number">4.1.</span> <span class="toc-text">Convolutional Neural Networks for Land Use Classification</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#U-Net-for-Semantic-Segmentation"><span class="toc-number">4.2.</span> <span class="toc-text">U-Net for Semantic Segmentation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Change-Detection-in-Time-Series-Data"><span class="toc-number">4.3.</span> <span class="toc-text">Change Detection in Time Series Data</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Case-Study-Predicting-Property-Values-with-Geospatial-Features"><span class="toc-number">5.</span> <span class="toc-text">Case Study: Predicting Property Values with Geospatial Features</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Problem-Statement"><span class="toc-number">5.1.</span> <span class="toc-text">Problem Statement</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-Sources"><span class="toc-number">5.2.</span> <span class="toc-text">Data Sources</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Methodology"><span class="toc-number">5.3.</span> <span class="toc-text">Methodology</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Implementation-Highlights"><span class="toc-number">5.4.</span> <span class="toc-text">Implementation Highlights</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Results-Visualization"><span class="toc-number">5.5.</span> <span class="toc-text">Results Visualization</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ethical-Considerations-in-Geospatial-Data-Science"><span class="toc-number">6.</span> <span class="toc-text">Ethical Considerations in Geospatial Data Science</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Privacy-Concerns"><span class="toc-number">6.1.</span> <span class="toc-text">Privacy Concerns</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Bias-and-Fairness"><span class="toc-number">6.2.</span> <span class="toc-text">Bias and Fairness</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Environmental-Impact"><span class="toc-number">6.3.</span> <span class="toc-text">Environmental Impact</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Future-Directions"><span class="toc-number">7.</span> <span class="toc-text">Future Directions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">8.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://balijepalli.com/2025/06/10/geospatial-data-science/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&text=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&is_video=false&description=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Geospatial Data Science: Merging Location Intelligence With Machine Learning&body=Check out this article: http://balijepalli.com/2025/06/10/geospatial-data-science/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&title=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://balijepalli.com/2025/06/10/geospatial-data-science/&name=Geospatial Data Science: Merging Location Intelligence With Machine Learning&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://balijepalli.com/2025/06/10/geospatial-data-science/&t=Geospatial Data Science: Merging Location Intelligence With Machine Learning"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2026
+    Preetam Balijepalli
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="http://github.com/balijepalli">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
